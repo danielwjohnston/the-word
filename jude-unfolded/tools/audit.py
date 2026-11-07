@@ -110,24 +110,58 @@ def parse_ref(ref, default_book=None):
     return out
 
 QUOTE_INLINE = re.compile(r'[“"]([^“”"\n]{3,}?)[”"]\s*\(([^()\n]{1,60}?)\)')
+QUOTE_PAREN = re.compile(r'\([“"]([^“”"\n]{3,}?)[,.]?[”"],\s*([A-Z0-9][^()\n]{0,40}?)\)')
+try:
+    from sources import TRANSLATIONS, english as _english, EXCLUDED
+    KNOWN = [t[0] for t in TRANSLATIONS]
+except Exception:  # sources cache missing
+    TRANSLATIONS, KNOWN, EXCLUDED = [], [], []
+SKIP_SRC = r'\b(my rendering|literally|lit\.|Charles|Brenton|LXX|Theodotion|critical text|NA28|SBLGNT|Greek)\b'
+
+def trans_text(abbr, refs):
+    if abbr == 'LSV':
+        return ' '.join(verses_text(*r) for r in refs)
+    out = []
+    for r in refs:
+        out += [x[1] for x in _english(abbr, r)]
+    return norm(' '.join(out))
+
+def check_one(path, q, ref, report):
+    if re.search(SKIP_SRC, ref):
+        return 0
+    abbrs = [a for a in KNOWN if re.search(r'(?<![A-Za-z])' + re.escape(a) + r'(?![A-Za-z])', ref)]
+    for ex in EXCLUDED:
+        if re.search(r'(?<![A-Za-z])' + re.escape(ex) + r'(?![A-Za-z])', ref):
+            report.append(f'{os.path.basename(path)}: EXCLUDED TRANSLATION cited ({ref.strip()}): “{q}”')
+            return 0
+    refs = parse_ref(re.sub(r'(?<![A-Za-z])(' + '|'.join(KNOWN + ['LSV']) + r')(?![A-Za-z])', '', ref).strip(' ,;'))
+    if abbrs == ['LSV'] and not refs:
+        return 0   # LSV quote whose reference is given elsewhere in the sentence
+    if abbrs:
+        if not refs:
+            refs = [('JUD', 1, 1, 25)]
+        ok_all = True
+        for a in abbrs:
+            ok, frag = matches(q, trans_text(a, refs))
+            if not ok:
+                ok_all = False
+                report.append(f'{os.path.basename(path)}: QUOTE MISMATCH ({a}; {ref.strip()}): “{q}” — fragment not found: “{frag}”')
+        return 1 if ok_all else 0
+    is_lsv = 'LSV' in ref or re.match(r'\s*v{1,2}\.\s*\d', ref) or re.match(r'\s*(' + BOOK_RE + r')\s+\d', ref)
+    if not is_lsv or not refs:
+        return 0
+    ok, frag = matches(q, trans_text('LSV', refs))
+    if not ok:
+        report.append(f'{os.path.basename(path)}: QUOTE MISMATCH ({ref.strip()}): “{q}” — fragment not found: “{frag}”')
+        return 0
+    return 1
 
 def check_quotes(path, text, report):
     n_ok = 0
-    # inline quotes followed by a reference
     for m in QUOTE_INLINE.finditer(text):
-        q, ref = m.group(1), m.group(2)
-        is_lsv = 'LSV' in ref or re.match(r'\s*v{1,2}\.\s*\d', ref) or re.match(r'\s*(' + BOOK_RE + r')\s+\d', ref)
-        if not is_lsv: continue
-        if re.search(r'\b(WEB|ASV|BSB|KJV|NIV|ESV|NRSV|my rendering|literally|lit\.|Charles|Brenton|LXX)\b', ref):
-            continue
-        refs = parse_ref(ref.replace('LSV', '').strip(' ,;'))
-        if not refs: continue
-        hay = ' '.join(verses_text(*r) for r in refs)
-        ok, frag = matches(q, hay)
-        if ok: n_ok += 1
-        else:
-            # allow a match anywhere in Jude for Jude refs (verse numbering slip) but report it
-            report.append(f'{os.path.basename(path)}: QUOTE MISMATCH ({ref.strip()}): “{q}” — fragment not found: “{frag}”')
+        n_ok += check_one(path, m.group(1), m.group(2), report)
+    for m in QUOTE_PAREN.finditer(text):
+        n_ok += check_one(path, m.group(1), m.group(2), report)
     # block quotes
     lines = text.split('\n')
     block = []

@@ -10,7 +10,7 @@ This appendix collects the variation units in Jude that affect translation or in
 |---|---|---|---|---|---|---|
 | 1 | ἠγαπημένοις "loved" | same | ἡγιασμένοις "sanctified" | ἡγιασμένοις | SBLGNT/NA28 ("loved") | Moderate: affects the letter's love theme |
 | 3 | κοινῆς ἡμῶν σωτηρίας "our common salvation" | same | – ἡμῶν | – ἡμῶν | SBLGNT/NA28 | Minor |
-| 4 | δεσπότην "Master" | same | + θεόν "God" | + θεόν | SBLGNT/NA28 | Moderate: KJV reads two persons |
+| 4 | δεσπότην "Master" | same | + θεόν "God" | + θεόν | SBLGNT/NA28 | Moderate: older English Bibles read two persons |
 | 5 | εἰδότας ὑμᾶς ἅπαξ πάντα ὅτι Ἰησοῦς | same (NA27: … ὅτι ὁ κύριος ἅπαξ …) | ἅπαξ τοῦτο ὅτι ὁ κύριος | same as RP | SBLGNT/NA28 ("Jesus") | **Major**: Christology |
 | 7 | τρόπον τούτοις | same | τούτοις τρόπον | same as RP | — | Word order only |
 | 12 | οἱ ἐν ταῖς ἀγάπαις | same | – οἱ | – οἱ | — | Minor (grammar of σπιλάδες) |
@@ -19,7 +19,7 @@ This appendix collects the variation units in Jude that affect translation or in
 | 15 | πάντας τοὺς ἀσεβεῖς "all the impious" | πᾶσαν ψυχήν "every soul" | + αὐτῶν "their" | + αὐτῶν; ἐξελέγξαι | RP ("all their impious ones") | Moderate: relation to 1 Enoch 1:9 |
 | 16 | αὐτῶν | ἑαυτῶν | αὐτῶν | αὐτῶν | — | None in meaning |
 | 18 | ἐπ' ἐσχάτου χρόνου | same (NA27 adds τοῦ) | ἐν ἐσχάτῳ χρόνῳ; + ὅτι | same as RP | — | None in meaning |
-| 19 | οἱ ἀποδιορίζοντες | same | same | + ἑαυτούς "themselves" | SBLGNT/RP | Moderate: "separate themselves" (KJV) vs. "cause divisions" |
+| 19 | οἱ ἀποδιορίζοντες | same | same | + ἑαυτούς "themselves" | SBLGNT/RP | Moderate: "separate themselves" (WBS) vs. "cause divisions" |
 | 20 | word order | same | different order | same as RP | — | None in meaning |
 | 22–23 | three clauses, ἐλεᾶτε … σῴζετε … ἐλεᾶτε | same | two clauses, ἐλεεῖτε διακρινόμενοι … ἐν φόβῳ σῴζετε | same as RP | SBLGNT/NA28 (three clauses) | **Major**: number of groups; mercy vs. rebuke |
 | 24 | ὑμᾶς "you" | same | αὐτούς "them" | ὑμᾶς | SBLGNT/TR ("you") | Minor |
@@ -31,13 +31,13 @@ This appendix collects the variation units in Jude that affect translation or in
 
 **Jude 1: "loved" or "sanctified."** About 90% of manuscripts read "sanctified." The critical editions all read "loved," judging it the earlier and harder reading. "Sanctified in God the Father" looks like a scribal improvement of the unusual "loved in God the Father," perhaps influenced by 1 Cor 1:2. See Chapter 1.
 
-**Jude 4: "only Master [God] and Lord."** The added θεόν appears in the Byzantine tradition and produced the KJV's "denying the only Lord God, and our Lord Jesus Christ." Since a single article governs the nouns, even the longer text most naturally refers all the titles to Jesus, as the WEB's rendering of the Majority Text shows: "our only Master, God, and Lord, Jesus Christ." See Chapter 2.
+**Jude 4: "only Master [God] and Lord."** The added θεόν appears in the Byzantine tradition and produced the traditional English rendering "denying the only Lord God, and our Lord Jesus Christ" (WBS). Since a single article governs the nouns, even the longer text most naturally refers all the titles to Jesus, as the WEB's rendering of the Majority Text shows: "our only Master, God, and Lord, Jesus Christ." See Chapter 2.
 
 **Jude 5: "Jesus" or "the Lord."** This is the most discussed variant in the letter. "Jesus" is read by important early manuscripts, including Codex Alexandrinus and Codex Vaticanus. The early papyrus P72 has "God Christ." Most later manuscripts have "the Lord." The editors of NA28 adopted "Jesus," reversing NA27, and the SBLGNT reads it too. The placement of "once" also varies. See the deep dive in Chapter 3.
 
 **Jude 15: "all the impious" or "every soul."** NA28's "every soul" corresponds to 1 Enoch 1:9's "all flesh" (Charles). SBLGNT's "all the impious" matches Jude's emphasis on "impious." The Byzantine text adds "their." See Chapter 8.
 
-**Jude 19: "who cause divisions" or "who separate themselves."** The TR's added ἑαυτούς creates the KJV's "These be they who separate themselves," suggesting withdrawal. The critical and Byzantine texts lack it, which gives "these are the ones who cause divisions." See Chapter 10.
+**Jude 19: "who cause divisions" or "who separate themselves."** The TR's added ἑαυτούς creates the traditional English rendering "These are they who separate themselves" (WBS), suggesting withdrawal. The critical and Byzantine texts lack it, which gives "these are the ones who cause divisions." See Chapter 10.
 
 **Jude 22–23: two groups or three?** Five main forms survive. The SBLGNT, NA28, and LSV have three clauses (mercy, rescue, mercy with fear). Westcott–Hort, the Byzantine text, and P72 have two clauses in different arrangements. Tregelles and the Tyndale House Greek New Testament (as reported) read "refute" (ἐλέγχετε) instead of "show mercy" in the first clause. Clement of Alexandria's paraphrase suggests a two-part text. See the deep dive in Chapter 12.
 

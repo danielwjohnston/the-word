@@ -100,16 +100,16 @@ Jude does not name the people he opposes. He calls them "certain men" (v. 4), an
 - They are **self-serving**, "shepherding themselves" (v. 12), "for the sake of profit" (v. 16), like Balaam "for reward" (v. 11).
 - They are **divisive** and, in Jude's judgment, **"not having the Spirit"** (v. 19).
 
-Older commentators often identified them as Gnostics, members of the second-century movements that taught salvation through secret knowledge and despised the material world. The resemblance is partial at best. Jude says nothing about a lower creator-god, a cosmic myth, or a doctrine of secret knowledge. The developed Gnostic systems also belong to a later period than most scholars assign to Jude. A more cautious description, widely held since Richard Bauckham's commentary, sees them as traveling teachers who claimed prophetic or charismatic authority and taught that grace freed believers from moral law.[^i-5] That is itself a reconstruction, and the book treats it as one.
+Older commentators often identified them as Gnostics, members of the second-century movements that taught salvation through secret knowledge and despised the material world. The resemblance is partial at best. Jude says nothing about a lower creator-god, a cosmic myth, or a doctrine of secret knowledge. The developed Gnostic systems also belong to a later period than most scholars assign to Jude. The *Pulpit Commentary* already judged that nothing in the letter warrants the supposition that Jude "was thinking of Simon Magus in particular, or of Carpocrates, or any of the early Gnostics," though it allowed that "the seeds which were to develop into the pronounced Gnosticism of a later time were already sown."[^i-5] Jude's own charges suggest something simpler: traveling teachers who claimed prophetic or charismatic authority and taught that grace freed believers from moral law. That picture is this book's reconstruction, built from Jude's words and from early Christian instructions for testing traveling prophets (Chapter 2), and the book treats it as a reconstruction.
 
 ## 6. What kind of writing is Jude?
 
 Jude is a **letter**. It has the standard opening (sender, recipients, greeting) and an elaborate closing doxology in place of the usual farewell. In substance it is a **sermon or word of exhortation in letter form**, with a clear rhetorical aim: to move its hearers to "fight for the faith" (v. 3).
 
-Two analyses of its structure have been especially influential:
+Two ways of describing its structure are especially illuminating:
 
-- **A Jewish interpretive pattern.** Scholars such as E. Earle Ellis and Richard Bauckham observed that the central section (vv. 5–19) alternates between *texts*, meaning scriptural examples, a tradition, a prophecy, and an apostolic prediction, and *interpretations* introduced by "these." The pattern resembles the commentary method known from the Dead Sea Scrolls, in which a biblical text is quoted and then applied to the present ("its interpretation concerns…"). It suggests a writer trained in Jewish ways of reading Scripture as prophecy fulfilled in his own time.[^i-6]
-- **Greco-Roman rhetoric.** Duane F. Watson read Jude according to the conventions of ancient persuasive speech: an introduction stating the purpose (v. 3), a statement of the situation (v. 4), the main proofs (vv. 5–16), and a concluding appeal (vv. 17–23), framed by the letter opening and doxology.[^i-7]
+- **A Jewish interpretive pattern.** The central section (vv. 5–19) alternates between *texts* (scriptural examples, a tradition, a prophecy, an apostolic prediction) and *interpretations* introduced by "these" (οὗτοι). J. B. Mayor, following F. H. Chase, noted that the formula οὗτοί εἰσιν ("these are") belongs to apocalyptic writing that explains visions. Zechariah's angel says, "These [are] they whom YHWH has sent" (Zech 1:10, LSV), and Revelation's elder says, "These are those who are coming out of the Great Tribulation" (Rev 7:14, LSV). Mayor suggested that Jude adopted the formula from such writings.[^i-6] The pattern also resembles the *pesher* commentaries among the Dead Sea Scrolls, which quote a prophetic text and then explain its "interpretation" in terms of the community's own time.[^i-6b] It suggests a writer trained in Jewish ways of reading Scripture as prophecy fulfilled in his own day.
+- **Greco-Roman rhetoric.** Ancient teachers of speech described the parts of a persuasive address. Quintilian, writing in the first century AD, reports that "most authorities divide the forensic speech into five parts: the exordium, the statement of facts, the proof, the refutation, and the peroration."[^i-7] Read with these categories, Jude has an introduction stating its purpose (v. 3), a statement of the situation (v. 4), the proofs (vv. 5–16), and a concluding appeal (vv. 17–23), framed by the letter opening and the doxology. This is offered as a reading aid; Jude never names these categories.
 
 The two analyses do not compete. A Jewish author writing in Greek could use both inherited Jewish methods and the persuasive patterns any educated speaker of Greek would know.
 
@@ -140,9 +140,11 @@ Anyone who reads Jude and then 2 Peter 2 notices the resemblance. The same seque
 
 There are three main explanations:
 
-1. **2 Peter used Jude.** This is the majority view. Jude's version is usually the more compact and more Jewish, and it is easier to explain why 2 Peter would omit Jude's quotation from Enoch and his named Michael story than why Jude would add them. 2 Peter also arranges the examples in biblical order (angels, flood, Sodom), while Jude's order follows his own thematic logic.
-2. **Jude used 2 Peter.** A minority view, defended by older scholars such as Charles Bigg. It points to 2 Peter's future tense ("there will be false teachers," 2 Pet 2:1) and Jude's past tense ("there came in," Jude 4), as if Jude were reporting the fulfillment of 2 Peter's prediction.
+1. **2 Peter used Jude.** Most modern scholars hold this view.[^i-8b] Jude's version is usually the more compact and more Jewish, and it is easier to explain why 2 Peter would omit Jude's quotation from Enoch and his named Michael story than why Jude would add them. 2 Peter also arranges the examples in biblical order (angels, flood, Sodom), while Jude's order follows his own thematic logic.
+2. **Jude used 2 Peter.** This was Martin Luther's opinion. He wrote that Jude "refers to the second Epistle of St. Peter, from which it has taken nearly all its words." Some later scholars agreed, among them F. Spitta, as Mayor reports.[^i-8c] This view points to 2 Peter's future tense ("there will be false teachers," 2 Pet 2:1) and Jude's past tense ("there came in," Jude 4), as if Jude were reporting the fulfillment of 2 Peter's prediction.
 3. **Both used a common source**, perhaps a body of early Christian teaching about false teachers.
+
+Alfred Plummer, who weighed the question carefully in 1891, admitted that he "remains still uncertain as to the true relation between the two, and that he has inclined sometimes to the one, and sometimes to the other."[^i-8d] That honest uncertainty is a good guide.
 
 The question matters for the study of 2 Peter more than for Jude. This book reads Jude on its own terms and uses 2 Peter as an early interpreter of Jude's language. Appendix C gives the parallel texts side by side.
 
@@ -156,7 +158,7 @@ Jude's place in the New Testament was secure early in some regions and debated i
 - **AD 367:** Athanasius's Easter letter listing the books of the New Testament includes "one of Jude" among the seven catholic epistles.[^i-14]
 - **Late fourth century:** Jerome explained the hesitation directly: "because in it he quotes from the apocryphal Book of Enoch it is rejected by many. Nevertheless by age and use it has gained authority and is reckoned among the Holy Scriptures."[^i-15]
 
-At the Reformation, Martin Luther valued the letter but placed it among the books "that need not be counted among the chief books," calling it "an extract or copy of St. Peter's second epistle."[^i-16] John Calvin defended its authority and suggested that Jude drew on ancient tradition, not necessarily on an apocryphal book.[^i-17]
+At the Reformation, Martin Luther judged in his 1523 sermons on Jude that the letter "cannot be looked upon as being that of one who was truly an Apostle, for the author speaks in it of the Apostles, as being much their junior," and that it "refers to the second Epistle of St. Peter, from which it has taken nearly all its words."[^i-16] John Calvin defended its authority and suggested that Jude drew on ancient tradition, not necessarily on an apocryphal book.[^i-17]
 
 One further fact helps modern readers understand the issue. **The Book of Enoch, which Jude quotes, is itself part of the Old Testament canon of the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church**, though not of other churches or of Judaism.[^i-18] The question "What does it mean that Jude quotes Enoch?" therefore receives different answers in different Christian traditions. Chapter 8 explores it.
 
@@ -180,17 +182,25 @@ The chapters that follow try to show how these pieces fit together.
 
 [^i-2]: Eusebius, *Ecclesiastical History* 3.19–20, quoting Hegesippus (NPNF² 1; <https://www.newadvent.org/fathers/250103.htm>).
 
-[^i-3]: For a sustained case for authenticity, see Richard Bauckham, *Jude, 2 Peter* (WBC 50; Waco: Word, 1983), introduction, and his *Jude and the Relatives of Jesus in the Early Church* (Edinburgh: T&T Clark, 1990). For views favoring a later date and pseudonymous authorship, see the introductions in J. N. D. Kelly, *A Commentary on the Epistles of Peter and of Jude* (London: A&C Black, 1969), and Jerome H. Neyrey, *2 Peter, Jude* (AB 37C; New York: Doubleday, 1993). (These works are cited from prior knowledge; see the Bibliography.)
+[^i-3]: For the case for authenticity, see Alfred Plummer, introduction to Jude in *Ellicott's Commentary for English Readers*: "sober criticism requires us to believe that this Epistle was written by the man whose name it bears. To suppose that Jude is an assumed name is gratuitous." Plummer also lists the objections raised against it: that "it cites apocryphal books; has a suspicious relationship to Romans and 2 Peter; is difficult in style." Text at <https://biblehub.com/commentaries/ellicott/jude/1.htm>. For the argument that the letter alludes to the second-century teacher Carpocrates and so cannot be by the Lord's brother, see Plummer's discussion in *The General Epistles of St. James and St. Jude* (Expositor's Bible, 1891), on Jude 4, <https://biblehub.com/commentaries/expositors/jude/1.htm>. On modern opinion, see "Epistle of Jude," *Wikipedia* (CC BY-SA; accessed 7 November 2026): "Scholars who consider the letter a pseudonymous work generally favor the later dates." De Wette's judgment that "no important objection to the genuineness of the Epistle can be made good" is quoted in E. H. Gillett's notes to Luther's sermons on Jude (1859), Project Gutenberg #29678.
 
 [^i-4]: Counts computed from the SBLGNT with MorphGNT lemmatization: 459 words, 226 distinct lemmas, 16 lemmas unique to Jude within the New Testament. See the project file `research/data-notes.md`. A different edition or lemmatization would change the figures slightly.
 
-[^i-5]: Bauckham, *Jude, 2 Peter*, introduction ("The Opponents"). The "Gnostic" identification was common in nineteenth- and early twentieth-century scholarship.
+[^i-5]: *The Pulpit Commentary*, ed. H. D. M. Spence and J. S. Exell, on Jude 4 (public domain), <https://biblehub.com/commentaries/pulpit/jude/1.htm>. By contrast, Joseph Benson's commentary (early nineteenth century) thought the teachers "seem to have been the Nicolaitans," and perhaps "the Gnostics and Carpocratians" (on Jude 4, <https://biblehub.com/commentaries/benson/jude/1.htm>).
 
-[^i-6]: E. Earle Ellis, "Prophecy and Hermeneutic in Jude," in *Prophecy and Hermeneutic in Early Christianity* (Tübingen: Mohr Siebeck, 1978); Bauckham, *Jude, 2 Peter*, on vv. 5–19.
+[^i-6]: J. B. Mayor, "The General Epistle of Jude," in *The Expositor's Greek Testament*, ed. W. Robertson Nicoll, vol. 5 (London: Hodder & Stoughton, 1910), on Jude 12: "Dr. Chase quotes Zechariah 1:10 f., Revelation 7:14, Enoch xlvi. 3 … for the phrase οὗτοί εἰσιν, adding that it was probably adopted by St. Jude from apocalyptic writings." Public domain; text at <https://biblehub.com/commentaries/egt/jude/1.htm>.
 
-[^i-7]: Duane F. Watson, *Invention, Arrangement, and Style: Rhetorical Criticism of Jude and 2 Peter* (SBLDS 104; Atlanta: Scholars Press, 1988).
+[^i-6b]: "Pesher," *Wikipedia* (CC BY-SA; accessed 7 November 2026): pesher, "from the Hebrew root meaning 'interpretation,' is a group of interpretive commentaries on scripture," with the Habakkuk Commentary (1QpHab) as the classic example.
 
-[^i-8]: Compare the Septuagint of Isa 57:20 (Οἱ δὲ ἄδικοι κλυδωνισθήσονται, καὶ ἀναπαύσασθαι οὐ δυνήσονται, "the unrighteous will be tossed like waves and will not be able to rest"), which lacks the mire, and LXX Prov 25:14, which differs substantially from the Hebrew. Greek text from Brenton's Septuagint, eBible.org edition. Bauckham makes the broader argument that Jude's allusions reflect the Hebrew text (*Jude, 2 Peter*, introduction and on vv. 12–13).
+[^i-7]: Quintilian, *Institutio Oratoria* 3.9.1, trans. H. E. Butler (Loeb Classical Library, 1920–22; public domain), LacusCurtius edition, <https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/3C*.html>.
+
+[^i-8b]: "Epistle of Jude," *Wikipedia* (CC BY-SA; accessed 7 November 2026): "most scholars consider Jude the source for the similar passages of 2 Peter."
+
+[^i-8c]: Martin Luther, *The Epistles of St. Peter and St. Jude Preached and Explained* (Wittenberg, 1523–24), trans. E. H. Gillett (New York: Anson D. F. Randolph, 1859), on Jude 1–2, Project Gutenberg #29678. Mayor, *Expositor's Greek Testament*, on Jude 8, mentions "Spitta (holding that Jude copied from 2 Peter)" and "those who take the opposite view (viz. that 2 Peter was copied from Jude)."
+
+[^i-8d]: Alfred Plummer, *The General Epistles of St. James and St. Jude* (Expositor's Bible; London: Hodder & Stoughton, 1891), on Jude 4, <https://biblehub.com/commentaries/expositors/jude/1.htm>. Plummer notes that "only the first three and last seven verses, i.e., about a third of the whole, have no intimate relations with 2 Peter."
+
+[^i-8]: Compare the Septuagint of Isa 57:20 (Οἱ δὲ ἄδικοι κλυδωνισθήσονται, καὶ ἀναπαύσασθαι οὐ δυνήσονται, "the unrighteous will be tossed like waves and will not be able to rest"), which lacks the mire, and LXX Prov 25:14, which differs substantially from the Hebrew. Greek text from Brenton's Septuagint, eBible.org edition. The observation that these allusions follow the Hebrew rather than the Greek is this book's, based on comparing the texts.
 
 [^i-9]: Muratorian Fragment, in *Ante-Nicene Fathers* 5, "Fragments of Caius," §4 (<https://www.newadvent.org/fathers/0510.htm>).
 
@@ -206,8 +216,8 @@ The chapters that follow try to show how these pieces fit together.
 
 [^i-15]: Jerome, *On Illustrious Men* (*De viris illustribus*) 4 (NPNF² 3; <https://www.newadvent.org/fathers/2708.htm>).
 
-[^i-16]: Martin Luther, "Preface to the Epistles of St. James and St. Jude" (1522), English translation as reproduced at <https://www.bible-researcher.com/antilegomena.html> (from *Luther's Works*, vol. 35).
+[^i-16]: Luther, *The Epistles of St. Peter and St. Jude Preached and Explained*, trans. Gillett (1859), on Jude 1–2, Project Gutenberg #29678 (public domain). Luther expressed similar judgments in his 1522 preface to James and Jude.
 
 [^i-17]: John Calvin, *Commentaries on the Catholic Epistles*, trans. John Owen (Edinburgh: Calvin Translation Society, 1855), on Jude 9 and 14 (CCEL edition).
 
-[^i-18]: On the canonical status and textual history of 1 Enoch, see the summary in "Book of Enoch," *Wikipedia* (accessed 7 November 2026), and George W. E. Nickelsburg, *1 Enoch 1* (Hermeneia; Minneapolis: Fortress, 2001), introduction (cited from prior knowledge).
+[^i-18]: On the canonical status and textual history of 1 Enoch, see "Book of Enoch," *Wikipedia* (CC BY-SA; accessed 7 November 2026). On its rediscovery in Europe (from Ethiopia, in 1773) and its first modern edition (Dillmann, 1853), see Plummer (Expositor's Bible) and E. H. Plumptre (*Cambridge Bible for Schools and Colleges*) on Jude 14.

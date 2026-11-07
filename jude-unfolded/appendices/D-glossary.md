@@ -186,7 +186,7 @@ Greek words are listed by transliteration, with the Greek form and the verse in 
 
 **Targum.** An Aramaic translation and paraphrase of the Hebrew scriptures.
 
-**Textus Receptus (TR).** The printed Greek text that underlies the King James Version.
+**Textus Receptus (TR).** The printed Greek text of the Reformation era, which underlies Tyndale, the Geneva Bible, and their successors.
 
 **Theophany.** An appearance of God.
 
