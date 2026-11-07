@@ -12,27 +12,31 @@ C = os.path.join(ROOT, '.cache')
 sys.path.insert(0, HERE)
 from usfm2txt import book as usfm_book  # noqa: E402
 
-# Free English translations, in approximately chronological order (not order of preference).
+# Free English translations, in order of first publication (not order of preference).
+# Dates: eBible.org copyright pages (T4T 2008-2017, ULB 2017, FBV 2018, LSV 2020, TCENT 2022, WEB "2020 stable
+# text edition"); Wikipedia (Geneva Bible 1560; Darby complete Bible 1890; WEB 2000; OEB first release
+# August 2010; BSB and MSB 2022). eBible's Geneva text is the 1599 edition; its Douay-Rheims is the 1899
+# American edition of the Rheims New Testament (1582) as revised by Challoner.
 TRANSLATIONS = [
     # abbr, eBible id, display name, date label, license
-    ('TNT',  'engtnt',      'Tyndale New Testament',               '1534',      'Public domain'),
-    ('GNV',  'enggnv',      'Geneva Bible',                        '1599',      'Public domain'),
-    ('DRA',  'engDRA',      'Douay-Rheims (American ed.)',         '1582/1899', 'Public domain'),
-    ('WBS',  'engwebster',  'Webster Bible',                       '1833',      'Public domain'),
-    ('NOY',  'engnoy',      'Noyes Bible',                         '1869',      'Public domain'),
-    ('RV',   'eng-rv',      'Revised Version',                     '1881',      'Public domain'),
-    ('DBY',  'engDBY',      'Darby Translation',                   '19th c.',   'Public domain'),
-    ('YLT',  'engylt',      "Young's Literal Translation",         '1898',      'Public domain'),
-    ('ASV',  'eng-asv',     'American Standard Version',           '1901',      'Public domain'),
-    ('WEB',  'engwebp',     'World English Bible',                 'modern',    'Public domain'),
-    ('OEB',  'engoebus',    'Open English Bible',                  'modern',    'Public domain'),
-    ('T4T',  'eng-t4t',     'Translation for Translators',          'modern',    'CC BY-SA 4.0'),
-    ('BSB',  'engbsb',      'Berean Standard Bible',               'modern',    'Public domain'),
-    ('ULB',  'engULB',      'Unlocked Literal Bible',              'modern',    'CC BY-SA 4.0'),
-    ('FBV',  'engfbv',      'Free Bible Version',                  'modern',    'CC BY-SA 4.0'),
-    ('LSV',  'englsv',      'Literal Standard Version',            'modern',    'CC BY-SA 4.0'),
-    ('MSB',  'engmsb',      'Majority Standard Bible',             'modern',    'Public domain'),
-    ('TCENT','engtcent',    'Text-Critical English New Testament', 'modern',    'CC BY 4.0'),
+    ('TNT',  'engtnt',      'Tyndale New Testament',               '1534',          'Public domain'),
+    ('GNV',  'enggnv',      'Geneva Bible',                        '1560; 1599 ed.', 'Public domain'),
+    ('DRA',  'engDRA',      'Douay-Rheims',                        '1582; 1899 ed.', 'Public domain'),
+    ('WBS',  'engwebster',  'Webster Bible',                       '1833',          'Public domain'),
+    ('NOY',  'engnoy',      'Noyes Bible',                         '1869',          'Public domain'),
+    ('RV',   'eng-rv',      'Revised Version',                     '1881',          'Public domain'),
+    ('DBY',  'engDBY',      'Darby Translation',                   '1890',          'Public domain'),
+    ('YLT',  'engylt',      "Young's Literal Translation",         '1898',          'Public domain'),
+    ('ASV',  'eng-asv',     'American Standard Version',           '1901',          'Public domain'),
+    ('WEB',  'engwebp',     'World English Bible',                 '2000; 2020 ed.', 'Public domain'),
+    ('T4T',  'eng-t4t',     'Translation for Translators',         '2008–2017',     'CC BY-SA 4.0'),
+    ('OEB',  'engoebus',    'Open English Bible',                  '2010',          'Public domain'),
+    ('ULB',  'engULB',      'Unlocked Literal Bible',              '2017',          'CC BY-SA 4.0'),
+    ('FBV',  'engfbv',      'Free Bible Version',                  '2018',          'CC BY-SA 4.0'),
+    ('LSV',  'englsv',      'Literal Standard Version',            '2020',          'CC BY-SA 4.0'),
+    ('BSB',  'engbsb',      'Berean Standard Bible',               '2022',          'Public domain'),
+    ('MSB',  'engmsb',      'Majority Standard Bible',             '2022',          'Public domain'),
+    ('TCENT','engtcent',    'Text-Critical English New Testament', '2022',          'CC BY 4.0'),
 ]
 ABBR = {t[0]: t for t in TRANSLATIONS}
 EXTRA = {'BRENTON': 'eng-Brenton', 'LXX': 'grcbrent', 'RP': 'grcmt', 'TR': 'grctr'}

@@ -11,24 +11,24 @@ Entries point to the chapters and appendices where each subject is discussed sub
 **Balaam**: **Ch. 5**  
 **brothers of Jesus**: **Hist. Intro**, Ch. 1  
 **Cain**: **Ch. 5**  
-**canon**: **Ch. 8**  
+**canon**: Ch. 4, **Ch. 8**  
 **clouds**: **Ch. 6**, Ch. 7  
-**contending for the faith**: Hist. Intro, **Ch. 2**, Ch. 11, Ch. 12  
+**contending for the faith**: Hist. Intro, **Ch. 2**, Ch. 4, Ch. 11, Ch. 12  
 **Devil**: **Ch. 4**  
-**divisions**: Hist. Intro, Overview, Ch. 6, **Ch. 10**, App. A, App. B  
-**doubt, doubting**: **Ch. 12**  
+**divisions**: Hist. Intro, Ch. 6, **Ch. 10**, App. A, App. B  
+**doubt, doubting**: Ch. 4, **Ch. 12**  
 **doxology**: **Ch. 13**  
 **dreams, dreamers**: **Ch. 4**  
-**Egypt, exodus**: Hist. Intro, **Ch. 3**  
+**Egypt, exodus**: Hist. Intro, **Ch. 3**, Ch. 4  
 **Enoch**: Ch. 7, **Ch. 8**  
 **eternal / continuous**: **Ch. 3**, Ch. 11, Glossary  
-**faith once delivered**: Reader's Intro, **Ch. 2**  
+**faith once delivered**: **Ch. 2**  
 **fear**: Ch. 6, **Ch. 12**  
 **fire**: Ch. 3, **Ch. 12**  
 **flattery, partiality**: **Ch. 9**  
 **glory**: **Ch. 13**  
 **Gnosticism**: **Hist. Intro**, Ch. 10  
-**grace**: Ch. 1, **Ch. 2**  
+**grace**: Ch. 1, **Ch. 2**, App. C  
 **grumbling**: **Ch. 9**  
 **hospitality**: Ch. 2, **Ch. 3**, Ch. 6  
 **Jesus, pre-existence of**: **Ch. 3**  
@@ -36,26 +36,26 @@ Entries point to the chapters and appendices where each subject is discussed sub
 **keeping (τηρέω)**: Overview, **Ch. 1**, Ch. 3, Ch. 7, Ch. 11, Ch. 13  
 **Korah**: **Ch. 5**  
 **last days / last time**: **Ch. 10**, App. C  
-**licentiousness**: **Ch. 2**, App. C  
+**licentiousness**: **Ch. 2**  
 **Lord's Supper / Eucharist**: **Ch. 6**  
-**love of God**: **Ch. 11**  
+**love of God**: Ch. 1, **Ch. 11**  
 **mercy**: Ch. 1, Ch. 11, **Ch. 12**  
 **Michael**: **Ch. 4**  
-**Moses, body of**: Reader's Intro, Overview, **Ch. 4**, App. C  
+**Moses, body of**: Reader's Intro, **Ch. 4**, App. C  
 **optative**: **Ch. 1**, Ch. 4, Glossary  
 **patronage**: **Ch. 9**  
-**peace**: **Ch. 1**, Ch. 7  
+**peace**: **Ch. 1**, Ch. 7, App. C  
 **prayer in the Holy Spirit**: Ch. 10, **Ch. 11**  
 **prophecy**: Hist. Intro, Ch. 2, Ch. 4, Ch. 5, **Ch. 8**, Ch. 10  
 **reefs (σπιλάδες)**: **Ch. 6**  
-**salvation**: Reader's Intro, Overview, Ch. 1, **Ch. 2**, Ch. 3, Ch. 13  
-**scoffers**: Overview, Ch. 5, **Ch. 10**, App. C  
+**salvation**: Reader's Intro, Ch. 1, **Ch. 2**, Ch. 3, Ch. 13  
+**scoffers**: Ch. 5, **Ch. 10**, App. C  
 **servant / slave (δοῦλος)**: **Ch. 1**  
 **shepherds**: **Ch. 6**  
 **Sodom and Gomorrah**: **Ch. 3**  
 **Spirit, Holy**: Ch. 10, **Ch. 11**  
-**stains**: **Ch. 6**, Ch. 12, Ch. 13  
-**stars, wandering**: **Ch. 7**  
+**stains**: Ch. 4, **Ch. 6**, Ch. 12, Ch. 13  
+**stars, wandering**: **Ch. 7**, App. C  
 **stumbling**: **Ch. 13**  
 **Tartarus**: **Ch. 3**, App. C  
 **textual variants**: **Method**, Ch. 1, Ch. 2, Ch. 3, Ch. 6, Ch. 12, App. A  
@@ -63,7 +63,7 @@ Entries point to the chapters and appendices where each subject is discussed sub
 **Trinity, Trinitarian pattern**: **Ch. 11**  
 **typology**: Ch. 3, **Ch. 5**, Ch. 9  
 **Watchers**: **Ch. 3**, Ch. 8  
-**waves, sea**: **Ch. 7**, Ch. 12  
+**waves, sea**: **Ch. 7**, Ch. 12, App. C  
 **wilderness generation**: Hist. Intro, **Ch. 3**, Ch. 5, Ch. 9, Ch. 13  
-**woe**: Overview, **Ch. 5**, Ch. 6  
+**woe**: **Ch. 5**, Ch. 6  
 **Zechariah 3**: Hist. Intro, **Ch. 4**, Ch. 12  

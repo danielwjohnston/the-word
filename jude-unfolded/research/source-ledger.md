@@ -10,6 +10,8 @@ This ledger records every source the manuscript relies on, how it was obtained, 
 | **V2 — Retrieved, secondary report** | The claim was confirmed only through a reliable secondary report (for example, a lexicon entry or reference work quoting the source), not from the primary text itself. |
 | **V3 — Prior scholarly knowledge, not re-verified** | A standard published work cited for a well-known position. It could not be consulted in this session. Page numbers are deliberately omitted, and the manuscript attributes only widely documented positions to these works. **Check each against the printed work before publication.** |
 
+**Second edition (November 2026).** Under the governing rule in `project-brief.md` (only public-domain or freely licensed sources; nothing that needs permission), every V3 work below and every copyrighted translation has been removed from the book. Sections 4–5 are kept as a historical record of the first draft only; no claim in the current manuscript depends on them. The sources added for the second edition are in §9, and the scrubbed items in §10.
+
 ---
 
 ## 1. Primary biblical texts
@@ -153,10 +155,11 @@ These works are standard in Jude scholarship. Because none could be opened in th
 
 ## 7. Open questions for pre-publication checking
 
-1. Confirm the LSV license terms for commercial print with Covenant Press (CC BY-SA vs. reported NC language).
-2. Verify the V3 attributions against the printed commentaries and add page numbers.
-3. Verify the 4Q204 identification and Milik's assessment against Milik (1976) or Nickelsburg's Hermeneia commentary on 1 Enoch (2001).
-4. Optionally consult NA28 and ECM directly for full witness lists (P72, ℵ, A, B, C, etc.). The manuscript names individual manuscripts only where the reading is verified or very widely reported, and marks those cases.
+1. LSV license: the eBible.org edition (files dated 30 October 2026) states CC BY-SA 4.0 and gives the copyright line used on the copyright page. No further permission is needed for CC BY-SA use; the publisher's request that the text remain unaltered is honored. *Resolved for this edition.*
+2. ~~Verify the V3 attributions against the printed commentaries.~~ *Superseded:* all V3 works were removed in the second edition.
+3. ~~Verify the 4Q204 identification and Milik's assessment.~~ *Superseded:* Chapter 8 now relies on Wikipedia ("Book of Enoch") and public-domain commentaries only.
+4. ~~Consult NA28/ECM for witness lists.~~ *Resolved:* manuscript readings now come directly from the INTF NTVMR transcriptions (§9) and are checked by `tools/make_texts.py`.
+5. Dates of the modern free translations (WEB 2000, OEB 2010, BSB and MSB 2022, Darby 1890, Geneva 1560) rest on Wikipedia and eBible.org metadata (§9); refine if the publishers give more precise dates.
 
 ---
 
@@ -178,3 +181,30 @@ The following were retrieved and read while drafting chapters 3–13. Each passa
 | Abbott-Smith additional entries | TEI edition | φυλάσσω, κράτος, σωτήρ, ὠφέλεια, γογγυστής, μεμψίμοιρος, ὑπέρογκος, ἐμπαίκτης, ψυχικός, ἀποδιορίζω, ἐκχέω, ἀντιλογία | Chs. 5, 9, 10, 13 |
 | Computed counts | MorphGNT | οὐαί by NT book; the only NT superlative of ἅγιος (Jude 20) | Chs. 5, 11 |
 | Theophrastus title (Greek) | Search result citing the Oxford 1909 edition ("ΜΕΜΨΙΜΟΙΡΙΑ XVII") | — | Ch. 9 (V2 for the Greek title) |
+
+---
+
+## 9. Second-edition sources (all V1 unless marked)
+
+| Source | License | What was verified | Where used |
+|---|---|---|---|
+| INTF, New Testament Virtual Manuscript Room: transcriptions of Jude in P72, P78, 01, 02, 03, 04, 018, 020, 044, 1739 (API `transcript/get`, docIDs 10072, 10078, 20001–20004, 20018, 20020, 20044, 31739); metadata (dates) | CC BY 4.0 (stated in the transcription headers, re-checked 7 Nov 2026) | Every reading in the section A manuscript tables, the Chapter 3 and 12 tables, and Appendix A. `tools/make_texts.py` re-checks each claim against `.cache/ntvmr/jude_ms.json` on every build. Corrections found by this check: θεόν in v. 4 is also in K (018); "before all time" and "through Jesus Christ" are present in L (020); A reads ἡμᾶς and ἀμέμπτους in v. 24. | Sections A; Chs. 3, 12; App. A |
+| Westminster Leningrad Codex via Open Scriptures Hebrew Bible (`openscriptures/morphhb`, `wlc/*.xml`) | WLC public domain (OSHB morphology CC BY 4.0, not reproduced) | Hebrew text of every OT passage in section L; English→Hebrew versification mapped in `tools/sources.py` (`heb_ref`) | Sections L |
+| Eighteen English translations, eBible.org USFM (ids in `tools/sources.py`) | PD, CC BY-SA 4.0 (T4T, ULB, FBV, LSV), CC BY 4.0 (TCENT); copyright lines from each edition's `copr.htm` | Every verse of Jude in section A; every inline quotation checked by `tools/audit.py` against the translation it names | Sections A, L; App. A, C |
+| Translation dates | — | eBible `copr.htm` (T4T 2008–2017, ULB 2017, FBV 2018, LSV 2020, TCENT 2022, WEB "2020 stable text edition"); Wikipedia "World English Bible" (2000), "Darby Bible" (NT 1867, Bible 1890), "Open English Bible" (first release August 2010), list of English Bible translations (BSB 2022, MSB 2022) — **V2** for the Wikipedia-derived dates | Copyright page; section A |
+| Text basis of WEB and BSB | — | WEB front matter (`00-FRTengwebp.usfm`): "uses the Byzantine Majority Text (MT) as the primary basis for the New Testament." BSB: Berean project documentation reports an eclectic text based on Nestle 1904 with critical decisions — **V2** | Overview; Reader's Introduction |
+| Brenton, Greek Septuagint with Apocrypha (`grcbrent`) and English (`eng-Brenton`) | PD | Apocrypha passages (Sir 16; Wis 10; 3 Macc 2, 6) in section L | Sections L |
+| R. H. Charles, *Book of Enoch* (1917), Wikisource chapter files | PD | Whole chapters and verses of 1 Enoch printed in section L (chapters fetched on demand) | Sections L |
+| Public-domain commentaries (biblehub.com editions): Mayor (EGT 1910), Plummer (Ellicott; Expositor's Bible 1891), Plumptre (Cambridge Bible), Huther (Meyer, 1881), *Pulpit Commentary*, Benson | PD | Each quotation read in the online text (see chapter footnotes) | Hist. Intro; Chs. 2–5, 7–8, 12 |
+| Luther, *Epistles of St. Peter and St. Jude*, trans. E. H. Gillett (1859), Project Gutenberg #29678 | PD | Quotations on authorship and on Jude and 2 Peter | Hist. Intro |
+| Quintilian, *Institutio Oratoria* 3.9.1, trans. H. E. Butler (1920–22), LacusCurtius | PD | Parts of a speech | Hist. Intro |
+| Josephus, *Jewish War* 4.8.4 (Whiston), Project Gutenberg #2850 | PD | Remains of the cities of the plain | Ch. 3 |
+| Wikipedia: "Book of Enoch," "Epistle of Jude," "Pesher," "Testament of Moses" | CC BY-SA 4.0 | Facts cited where used; no article text reproduced beyond brief quotation | Hist. Intro; Chs. 4, 8 |
+
+## 10. Scrubbed in the second edition
+
+- **Translations requiring permission:** none had been quoted except the KJV; all KJV quotations replaced by Webster (WBS) or another free translation, and `research/texts/jude-kjv-1769.txt` deleted. ESV, NASB, NLT, Amplified, *The Message*, NIV, NET, NKJV, CSB, NRSV, RSV, and others are listed as excluded on the copyright page and blocked by `tools/audit.py` (`EXCLUDED`).
+- **Copyrighted or unverified scholarship (former V2/V3):** Bauckham (both works), Bartholomä, Bigg, Charles's *Assumption of Moses* (cited now only as reported by Mayor), Davids, Ellis, Flink, Frey, Green, Kelly, Metzger, Milik, Moo, Neyrey, Nickelsburg, Reese, Schreiner, Wasserman, Watson, BDAG, LSJ, Wallace, Moulton–Milligan. Each dependent claim was removed or re-established from a free source (§9).
+- **Luther's 1522 preface** in the *Luther's Works* translation (copyrighted): removed; Luther is now quoted only from Gillett's public-domain translation.
+- **Factual corrections made while re-verifying:** ἀγάπαις/ἀπάταις differ by two letters, not one (Ch. 6); dates and order of the translations corrected; manuscript lists corrected as noted in §9.
+

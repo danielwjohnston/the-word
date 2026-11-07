@@ -96,3 +96,25 @@ The main text is about 7% above the 60,000-word upper target. The raw count incl
 - The Greek of 1 Enoch 1:9 is not quoted, because no verifiable transcription could be retrieved.
 - Markdown has no page numbers, so the indexes point to chapters. A typeset edition should regenerate page-based indexes.
 - The PDF is a clean reading copy produced from HTML via Chromium. It is not print-shop typesetting.
+
+## 10. Second-edition audit (7 November 2026)
+
+The second edition was rebuilt under `project-brief.md`. Audit results after the final build:
+
+| Check | Tool | Result |
+|---|---|---|
+| Inline and block quotations match the translation they name (any of the 18; excluded translations blocked) | `tools/audit.py` | 395 verified, 0 mismatches |
+| Coverage of every verse-and-phrase unit | `tools/audit.py` | 133/133 |
+| Footnotes defined and referenced | `tools/audit.py` | 178/178, no duplicates or orphans |
+| Sections A–L present in every chapter | `tools/audit.py` | 0 missing |
+| Manuscript readings (ten witnesses, 25 verses) | `tools/make_texts.py` | every listed manuscript checked against its INTF transcription; build stops on any failure |
+| Translation variants table (Appendix A.2) | `tools/make_texts.py` | every cell derived from, or asserted against, the translation's own text |
+| Greek forms | `tools/greek_audit.py` | 16,295 tokens; 34 forms not in the reference texts, all reviewed: manuscript readings verified against INTF (e.g., ὑπερέχουσαι, τηρήσωμεν, ἀνοικοδομεῖσθε, Βαλαάκ), lexicon citation forms and fragments (Abbott-Smith), the catena fragment (Ch. 4), nomina sacra (ΙΣ, ΚΣ), and μαραναθά |
+| Reference links to section L | `tools/build.py` + check of `manuscript.md` | 437 anchors, 680 links, 0 broken |
+| Exports | `tools/build.py` | EPUB, DOCX, HTML, PDF (596 pages at 6 × 9 in.); Hebrew renders right-to-left (spot-checked) |
+
+**Length.** About 77,800 words of commentary (excluding footnote definitions) and about 194,000 words of generated source texts: the Greek, manuscript tables, eighteen translations of every verse, and the full text of about 437 highlighted passages. The author asked for no length trimming, so the earlier length targets in §8 no longer apply.
+
+**Scrubbing.** No quotation from a translation that requires permission remains; the KJV is replaced by Webster (WBS). The bibliography lists only free works, all consulted directly; the removed works are listed in `research/source-ledger.md` §10.
+
+**Judgment calls to note.** (1) Inline cross-reference quotations still most often use the LSV, for its word-for-word clarity; every such passage is also printed in the original language and in BSB and WEB in section L. (2) Passages of more than five verses already printed in full earlier in the book are linked rather than repeated. (3) References to whole sections of 1 Enoch (chs. 1–36, 6–16, 72–82) are noted rather than printed.

@@ -2,15 +2,25 @@
 
 This file records each decision that shapes the manuscript, the reason for it, and any alternative the book presents fairly. When a chapter takes a position, it should agree with this file. Where a question is genuinely open, the book says so and gives the options, and this file records how the book frames it.
 
-## A. Translation and text
+## A. Text, translations, and sources (revised for the second edition, November 2026)
 
-**L1. The LSV is quoted unaltered and fully attributed.** Quotations reproduce LSV wording exactly, including its square brackets for supplied words. The manuscript never inserts editorial words inside an LSV quotation. Where the commentary needs a different rendering, it gives it separately as "literally," "or," or a comparison with the WEB, ASV, BSB, or KJV. *Reason:* the CC BY-SA terms and the publisher's request that the English text "remain unaltered." *Open item:* confirm commercial-print terms with Covenant Press (source ledger §1.1, §7).
+**L0. Only free sources.** Every text quoted or reproduced is in the public domain or under CC0, CC BY, or CC BY-SA. Anything requiring permission is excluded and scrubbed, including copyrighted translations (ESV, NASB, NLT, NIV, NET, NKJV, CSB, NRSV, Amplified, *The Message*), the KJV (Crown patent in the UK; Webster's 1833 revision is used instead), and modern commentaries, lexicons, and grammars that are under copyright or could not be consulted directly. The book is CC BY-SA 4.0 (copyleft). *Reason:* the author's instruction that God's word, and a book that opens it, be fully free and open. See `project-brief.md` §1.
 
-**L2. The commentary's Greek base is the SBLGNT, compared with NA28 and the Byzantine text.** Where the LSV's English reflects a Greek reading different from SBLGNT or NA28 (vv. 15, 25, and the shape of vv. 22–23), the chapter explains the difference. This is not a criticism of the LSV. The LSV preface states that its base is the TR and Majority Text, departing from them only where the evidence seems decisive.
+**L1. The manuscripts have priority.** Each chapter's section A prints the SBLGNT Greek first and then a table of readings in ten manuscripts (P72, P78, ℵ, A, B, C, K, L, Ψ, 1739) from the INTF NTVMR transcriptions (CC BY 4.0). `tools/make_texts.py` checks every manuscript claim against the cached transcriptions and stops if one fails. Old Testament passages are given in the Hebrew of the WLC.
 
-**L3. "Messengers" in the LSV.** The LSV renders ἄγγελος as "messenger" (vv. 6, 9). The commentary explains this as a literal rendering and uses "angel" in its own prose, since the context identifies heavenly beings.
+**L2. No translation is more important than another.** Every verse of Jude is printed in eighteen free translations in order of first publication. Inline quotations name their translation and are checked by `tools/audit.py`. The LSV is quoted most often inline because its word-for-word style shows the structure of the Greek under discussion. This is a choice of convenience, not of authority, and it is stated in the Reader's Introduction and the Method chapter. Long passages are given in two public-domain translations (BSB and WEB), which between them follow the critical and the Byzantine Majority texts.
 
-**L4. Glosses vs. quotations.** Typographic convention: curly double quotes “…” mark direct quotations, which the audit checks against sources. Single quotes ‘…’ mark glosses and translation equivalents.
+**L3. Every cited text is highlighted.** Every passage of Scripture, the Apocrypha, or 1 Enoch that a chapter cites by reference is printed in that chapter's section L: original language (WLC Hebrew/Aramaic, SBLGNT Greek, or the LXX), then BSB and WEB (Brenton for the Apocrypha; Charles for 1 Enoch). A passage of more than five verses already printed in full earlier is linked, not repeated. References that name a whole section of 1 Enoch (chs. 1–36, 6–16, 72–82) are noted, not printed. At build time, references in the text are linked to their section L entries.
+
+**L4. Greek-first headings.** Section C headings give the SBLGNT phrase, a transliteration, and this book's own gloss in single quotation marks.
+
+**L5. Quotations unaltered.** Every translation is quoted exactly, including its own square brackets; the commentary never inserts words inside another translation's quotation marks. The LSV's publisher requests that its English remain unaltered, and the book honors that for every translation.
+
+**L6. "Messengers" in the LSV.** The LSV renders ἄγγελος as "messenger" (vv. 6, 9). The commentary explains this as a literal rendering and uses "angel" in its own prose, since the context identifies heavenly beings.
+
+**L7. Glosses vs. quotations.** Typographic convention: curly double quotes “…” mark direct quotations, which the audit checks against sources. Single quotes ‘…’ mark glosses and translation equivalents.
+
+**L8. Older commentaries are quoted directly.** Public-domain commentaries (Mayor, Plummer, Plumptre, Huther, the *Pulpit Commentary*, Benson, Calvin, Luther in Gillett's translation) are quoted from the text consulted. Facts that postdate them are cited to named Wikipedia articles (CC BY-SA).
 
 ## B. Contested historical and critical questions
 
@@ -20,21 +30,21 @@ This file records each decision that shapes the manuscript, the reason for it, a
 
 **H3. Recipients.** These are unknown. Internal evidence (an assumed familiarity with Jewish traditions, love feasts, and the apostles' teaching) suggests a community or communities of Jewish Christians, or a mixed community at home with Jewish scriptural interpretation. The book does not invent a location.
 
-**H4. Jude and 2 Peter.** The majority view is that 2 Peter used Jude. The book presents the evidence, which is the computed overlap plus the omission of Enoch and of the Moses dispute in 2 Peter, along with the minority alternatives (Jude used 2 Peter, as Bigg argued; or both used a common source). It does not make the interpretation of Jude depend on the answer.
+**H4. Jude and 2 Peter.** The majority view is that 2 Peter used Jude. The book presents the evidence, which is the computed overlap plus the omission of Enoch and of the Moses dispute in 2 Peter, along with the minority alternatives (Jude used 2 Peter, as Luther and later Spitta held, reported via Gillett's Luther and Mayor; or both used a common source). It does not make the interpretation of Jude depend on the answer.
 
-**H5. The opponents.** Identifying them as second-century Gnostics is anachronistic. The book describes them from Jude's own charges: they are inside the community, they claim revelatory dreams (v. 8), they reject authority, they are sexually permissive, they are self-serving at the love feasts, they cause division, and Jude says they lack the Spirit. Bauckham's description of them as itinerant charismatic teachers with antinomian views is presented as a well-supported reconstruction, labeled as reconstruction.
+**H5. The opponents.** Identifying them as second-century Gnostics is anachronistic. The book describes them from Jude's own charges: they are inside the community, they claim revelatory dreams (v. 8), they reject authority, they are sexually permissive, they are self-serving at the love feasts, they cause division, and Jude says they lack the Spirit. Any fuller reconstruction of who they were is labeled as reconstruction.
 
 ## C. Exegetical decisions (verse by verse)
 
-**E1 (v. 1): ἠγαπημένοις vs. ἡγιασμένοις.** The text is "loved." The book explains the Byzantine "sanctified" reading (KJV, WEB). The dative Ἰησοῦ Χριστῷ τετηρημένοις is presented with both senses, "kept *for* Jesus Christ" (for his coming) and "kept *by/in* Jesus Christ." The book prefers "kept for" as the more natural sense of the plain dative, while noting that the LSV's "in" is defensible.
+**E1 (v. 1): ἠγαπημένοις vs. ἡγιασμένοις.** The text is "loved." The book explains the Byzantine "sanctified" reading (K, L; WBS, WEB, MSB). The dative Ἰησοῦ Χριστῷ τετηρημένοις is presented with both senses, "kept *for* Jesus Christ" (for his coming) and "kept *by/in* Jesus Christ." The book prefers "kept for" as the more natural sense of the plain dative, while noting that the LSV's "in" is defensible.
 
 **E2 (v. 3): τῇ … πίστει** = the content of faith ("the faith"), not the act of believing. ἅπαξ = "once for all." The book distinguishes "fixed" from "frozen": completeness of the apostolic message does not exclude growth in understanding.
 
 **E3 (v. 4): "written beforehand."** προγεγραμμένοι refers primarily to judgment written in earlier texts and prophecies, the examples Jude goes on to cite. It does not mean a decree of individual reprobation. The book notes the predestinarian readings in the history of interpretation.
 
-**E4 (v. 4): "our only Master and Lord Jesus Christ."** Both titles refer to Jesus (one article governs both nouns). The book explains the TR's added θεόν and the KJV's two-person rendering.
+**E4 (v. 4): "our only Master and Lord Jesus Christ."** Both titles refer to Jesus (one article governs both nouns). The book explains the added θεόν (Ψ, K, L; TR) and the two-person rendering of older English Bibles (WBS).
 
-**E5 (v. 5): Ἰησοῦς.** The book adopts "Jesus," following SBLGNT, NA28, and the LSV, and explains (a) the evidence, (b) its theological implication (the pre-existent Christ acting in the exodus, cf. 1 Cor 10:4, 9), and (c) why many translations still print "the Lord." The placement of ἅπαξ ("once" with "knowing" vs. "once" with "saved") is explained.
+**E5 (v. 5): Ἰησοῦς.** The book adopts "Jesus," following A, B, 1739, SBLGNT, and NA28 (with DRA, LSV, and BSB among the translations), and explains (a) the evidence, including P72's θεὸς Χριστός and the κύριος of ℵ, C*, Ψ, K, and L, (b) its theological implication (the pre-existent Christ acting in the exodus, cf. 1 Cor 10:4, 9), and (c) why many translations still print "the Lord." The placement of ἅπαξ ("once" with "knowing" vs. "once" with "saved") is explained.
 
 **E6 (v. 6): the angels.** These are the angels of the Watcher tradition (Gen 6:1–4 as read in 1 Enoch 6–16). The book presents this as the meaning Jude most likely intended, shown by the verbal parallels with 1 Enoch 10. It notes the alternative "pre-mundane fall of Satan" reading and the "sons of God = Sethites" reading found in later interpretation, and explains why they fit Jude's wording less well.
 
@@ -44,15 +54,15 @@ This file records each decision that shapes the manuscript, the reason for it, a
 
 **E9 (v. 8): κυριότης and δόξαι.** κυριότης is most likely the Lord's authority (or the Lord himself). δόξαι are glorious angelic beings. Both are presented with alternatives (human church leaders; evil angels).
 
-**E10 (v. 9): κρίσιν … βλασφημίας.** Two readings are presented. (1) Michael did not presume to pronounce a slanderous or abusive judgment on the devil. (2) Following Bauckham's reconstruction, Michael did not presume to condemn the devil *for slander* against Moses, and left judgment to God. In either reading the point stands: even the archangel deferred to God's authority.
+**E10 (v. 9): κρίσιν … βλασφημίας.** Two readings are presented. (1) Michael did not presume to pronounce a slanderous or abusive judgment on the devil. (2) In a reconstructed setting of the story, Michael did not presume to condemn the devil *for slander* against Moses, and left judgment to God; this is labeled as reconstruction. In either reading the point stands: even the archangel deferred to God's authority.
 
 **E11 (v. 11): the three figures** are read both as types of sin (Cain: hatred, envy, murder, and in Jewish tradition cynicism about judgment; Balaam: greed and leading others into immorality; Korah: rebellion against God-given authority) and as the three stages of a progression marked by the three verbs.
 
-**E12 (v. 12): σπιλάδες.** The primary sense is "hidden reefs," following classical usage, Abbott-Smith, and most modern versions (BSB). "Stains/spots" (the LSV, KJV, and the σπίλοι of 2 Pet 2:13) is a genuine possibility in later Greek. The book treats both, and explains why the reef image fits the shipwreck danger of the love feast.
+**E12 (v. 12): σπιλάδες.** The primary sense is "hidden reefs," following classical usage, Abbott-Smith, and most modern versions (BSB). "Stains/spots" (the LSV, WBS, and the σπίλοι of 2 Pet 2:13) is a genuine possibility in later Greek. The book treats both, and explains why the reef image fits the shipwreck danger of the love feast.
 
 **E13 (v. 12): ἀγάπαι = love feasts.** These were the community's shared meals, probably including or closely connected with the Lord's Supper in Jude's time. The book distinguishes first-century evidence (1 Cor 11; Jude; 2 Pet 2:13 v.l.) from later evidence (Ignatius, Pliny, Tertullian, Clement of Alexandria) and from later separation of Eucharist and agape.
 
-**E14 (vv. 12–13): the four nature images.** Clouds, trees, sea, and stars correspond to the four regions of the natural world. The book presents Bauckham's suggestion that they reflect 1 Enoch 2–5 and 80:2–6 (nature's obedience and its disorder in the days of sinners) as a probable background, verified from Charles's text.
+**E14 (vv. 12–13): the four nature images.** Clouds, trees, sea, and stars correspond to the four regions of the natural world. The book presents the suggestion that they reflect 1 Enoch 2–5 and 80:2–8 (nature's obedience and its disorder in the days of sinners) as a probable background, verified from Charles's text; Mayor (EGT) already connects the wandering stars with 1 Enoch 80.
 
 **E15 (v. 13): "wandering stars."** In ancient terms these are the planets and/or heavenly bodies that leave their courses. The background is 1 Enoch 18:13–16 and 21:1–6 (stars bound for transgressing). The book explicitly avoids importing modern astronomy and avoids "shooting stars/meteors" as *the* meaning while noting it as a proposal.
 
@@ -60,13 +70,13 @@ This file records each decision that shapes the manuscript, the reason for it, a
 
 **E17 (v. 19): ἀποδιορίζοντες** = "those who make divisions" or "make distinctions" (possibly spiritual ranking). ψυχικοί = "natural," and the book notes the possibility that Jude turns the opponents' own vocabulary against them (cf. 1 Cor 2:14–15).
 
-**E18 (vv. 22–23): text and meaning.** The book follows the three-clause text (SBLGNT, NA28, LSV) and presents the two-clause alternative (P72, Bauckham) in Appendix A. "Doubting" (διακρινομένους) is read as "wavering," with "disputing" as the alternative. The fire imagery draws on Zech 3:2–4 (a brand snatched from the fire; filthy garments), verified in LXX and LSV.
+**E18 (vv. 22–23): text and meaning.** The book follows the three-clause text (SBLGNT, NA28, LSV) and presents the two-clause forms (P72; B and WH; C; K, L and the Byzantine text) in Appendix A, from the verified manuscript transcriptions. "Doubting" (διακρινομένους) is read as "wavering," with "disputing" as the alternative. The fire imagery draws on Zech 3:2–4 (a brand snatched from the fire; filthy garments), verified in LXX and LSV.
 
 **E19 (v. 25): verbless doxology.** In the Greek, "glory … be" or "glory … is" must be supplied. The LSV's "[is]" is one legitimate choice and "be" (wish) is another. The book notes that 1 Pet 4:11 supplies ἐστιν.
 
 ## D. Style and presentation
 
-**S1.** Each chapter follows the required A–K pattern. Within that pattern the prose flows as a guided discovery, and deep dives are set apart under "Deep dive" headings.
+**S1.** Each chapter follows the A–L pattern (L added in the second edition). Within that pattern the prose flows as a guided discovery, and deep dives are set apart under "Deep dive" headings.
 
 **S2.** Footnote IDs are chapter-prefixed (`[^c3-4]`) so that they stay unique in the assembled manuscript.
 

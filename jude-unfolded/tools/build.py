@@ -28,8 +28,8 @@ subtitle: "An Exploration of Every Verse, Word, Image, and Meaning"
 author: "[Author Name]"
 date: "First edition, 2026"
 lang: en-US
-rights: "Commentary © 2026 [Author Name], CC BY-SA 4.0. Scripture quotations from the Literal Standard Version, © 2020 Covenant Press, CC BY-SA 4.0. Greek text from the SBL Greek New Testament, © 2010 Society of Biblical Literature and Logos Bible Software, CC BY 4.0."
-description: "A book-length expository commentary on the Epistle of Jude, based on the Literal Standard Version and the SBL Greek New Testament."
+rights: "Commentary © 2026 [Author Name], licensed CC BY-SA 4.0. Every source text is in the public domain or under a free license (CC0, CC BY, or CC BY-SA); see the Copyright and Licensing page and the acknowledgments."
+description: "A book-length expository commentary on the Epistle of Jude, working from the Greek text and its earliest manuscripts and quoting eighteen free English translations without preference."
 ---
 """
 
@@ -47,6 +47,8 @@ th { background: #f3efe6; }
 .footnotes { font-size: 0.85em; }
 code { font-family: 'DejaVu Sans Mono', monospace; font-size: 0.9em; }
 nav#TOC ul { list-style: none; padding-left: 1em; }
+div[lang=he] { font-family: 'FreeSerif', 'Ezra SIL', 'SBL Hebrew', serif; font-size: 1.15em; direction: rtl; text-align: right; }
+div[lang=grc] { font-family: 'FreeSerif', 'DejaVu Serif', serif; }
 @page { size: 6in 9in; margin: 0.7in 0.65in 0.8in 0.65in; }
 """
 
@@ -65,10 +67,17 @@ def toc(parts):
 
 def assemble():
     subprocess.run([sys.executable, '-I', os.path.join(HERE, 'make_parallels.py')], check=True)
+    subprocess.run([sys.executable, '-I', os.path.join(HERE, 'make_texts.py')], check=True)
     subprocess.run([sys.executable, '-I', os.path.join(HERE, 'make_indexes.py')], check=True)
-    front = [read(os.path.join(CH, f)) for f in ORDER[:5]]
-    body = [read(os.path.join(CH, f)) for f in ORDER[5:]]
-    appx = [read(os.path.join(AP, f)) for f in APPX]
+    sys.path.insert(0, HERE)
+    import make_texts
+    amap = make_texts.anchor_map()
+    def load(d, f):
+        # link Scripture references to the chapter's own "Texts Highlighted" section
+        return make_texts.link_refs(read(os.path.join(d, f)), amap.get(f, {}))
+    front = [load(CH, f) for f in ORDER[:5]]
+    body = [load(CH, f) for f in ORDER[5:]]
+    appx = [load(AP, f) for f in APPX]
     back = [read(os.path.join(ROOT, 'bibliography.md')), read(os.path.join(AP, 'G-acknowledgments-licensing.md'))]
     # demote "Part" structure: insert part dividers as level-1 unnumbered headings
     parts = [front[0]] + [toc(front[1:] + body + appx + back)] + front[1:] + \

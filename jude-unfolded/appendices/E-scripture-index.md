@@ -11,7 +11,7 @@ References are to chapters ("Ch. 6"), the introductory chapters, and appendices.
 2:11–12 (Ch. 4); 12–14 (Hist. Intro); 14:30 (Ch. 3); 16 (Ch. 9, Hist. Intro); 16:8 (Ch. 9); 18:16 (Ch. 5); 23:20–21 (Ch. 3); 23:21 (Ch. 3)
 
 **Leviticus**  
-13–15 (Ch. 12); 18:22 (Ch. 3); 19:15 (Ch. 9)
+13–15 (Ch. 12); 15:17 (Ch. 12); 18:22 (Ch. 3); 19:15 (Ch. 9)
 
 **Numbers**  
 6:24 (Ch. 1); 14 (Ch. 9, Hist. Intro); 14:2 (Ch. 9); 14:11 (Ch. 3, Ch. 9); 14:27 (Ch. 9); 14:29 (Ch. 3); 16 (Ch. 5, Hist. Intro); 16:3 (Ch. 5); 16:9–11 (Ch. 5); 16:11 (Ch. 5, Ch. 9); 16:32–33 (Ch. 5); 17:5 (Ch. 5, Ch. 9); 20:13 (Ch. 5); 22:7 (Ch. 5); 22:17 (Ch. 5); 22–24 (Ch. 5, Hist. Intro); 24:13 (Ch. 5); 25:1–3 (Ch. 5); 26:9 (Ch. 5); 26:11 (Ch. 5); 27:14 (Ch. 5); 31 (Ch. 5); 31:16 (Ch. 5, Hist. Intro)
@@ -44,7 +44,7 @@ References are to chapters ("Ch. 6"), the introductory chapters, and appendices.
 9:8 (Ch. 10); 18:5 (Ch. 9); 25:14 (Ch. 6, Hist. Intro); 28:21 (Ch. 9)
 
 **Isaiah**  
-1:10 (Ch. 3); 5 (Ch. 5); 5:20 (Ch. 5); 14:12 (Ch. 7); 41:9 (Ch. 1); 41–42 (Ch. 1); 42:6 (Ch. 1); 57:20 (Ch. 7, Hist. Intro); 57:20–21 (Ch. 7)
+1:10 (Ch. 3); 5 (Ch. 5); 5:20 (Ch. 5); 14:12 (Ch. 7); 30:22 (Ch. 12); 41:9 (Ch. 1); 41–42 (Ch. 1); 42:6 (Ch. 1); 57:20 (Ch. 7, Hist. Intro); 57:20–21 (Ch. 7)
 
 **Jeremiah**  
 5:22 (Ch. 7); 23 (Ch. 4); 23:14 (Ch. 3); 23:25 (Ch. 4); 23:25–32 (Ch. 4); 23:32 (Ch. 4); 31:35 (Ch. 7)
@@ -68,7 +68,7 @@ References are to chapters ("Ch. 6"), the introductory chapters, and appendices.
 6:5 (Ch. 5)
 
 **Zechariah**  
-3 (Ch. 4, Ch. 12); 3:1–2 (Ch. 4); 3:1–4 (Ch. 4, Ch. 12); 3:1–5 (Ch. 12); 3:2 (Ch. 4, Ch. 12, Hist. Intro); 3:2–4 (Hist. Intro); 3:2–3 (Ch. 4); 3:3–4 (Ch. 12); 14:5 (Ch. 8)
+1:10 (Hist. Intro); 3 (Ch. 4, Ch. 12); 3:1–2 (Ch. 4); 3:1–4 (Ch. 4, Ch. 12); 3:1–5 (Ch. 12); 3:2 (Ch. 4, Ch. 12, Hist. Intro); 3:2–4 (Hist. Intro); 3:2–3 (Ch. 4); 3:3–4 (Ch. 12); 3:4 (Ch. 12); 14:5 (Ch. 8)
 
 **Matthew**  
 1:25 (Hist. Intro); 3:10 (Ch. 6); 4:10 (Ch. 4); 7:16–20 (Ch. 6); 7:17 (Ch. 6); 8:12 (Ch. 7); 10:15 (Ch. 3); 10:33 (Ch. 2); 13:55 (Hist. Intro); 15:7 (Ch. 8); 15:13 (Ch. 6); 18:12–14 (Ch. 12); 18:14 (Ch. 12); 18:15–17 (Ch. 12); 21:19 (Ch. 6); 21:21 (Ch. 12); 23 (Ch. 5); 23:13–36 (Ch. 5); 23:35 (Ch. 5); 24:11 (Ch. 10); 24:24 (Ch. 10); 25:31 (Ch. 8); 25:41 (Ch. 3)
@@ -140,10 +140,10 @@ References are to chapters ("Ch. 6"), the introductory chapters, and appendices.
 3 (Ch. 1)
 
 **Jude**  
-1 (Ch. 1, Ch. 3, Ch. 7, Ch. 11, Ch. 13, App. A, Hist. Intro); 1–2 (Ch. 1); 1–25 (Overview); 2 (Ch. 1, Ch. 7, Ch. 11, Ch. 12, App. C); 3 (Ch. 2, Ch. 3, Ch. 4, Ch. 10, Ch. 11, Ch. 12, Ch. 13); 3–4 (Ch. 2); 4 (Ch. 1, Ch. 2, Ch. 3, Ch. 4, Ch. 5, Ch. 8, Ch. 9, Ch. 11, Ch. 12, Ch. 13, App. A, App. C, Hist. Intro); 5 (Ch. 3, Ch. 5, Ch. 9, Ch. 10, Ch. 11, Ch. 13, App. A, App. C); 5–7 (Ch. 3, Ch. 10); 5–15 (Ch. 2); 6 (Ch. 1, Ch. 3, Ch. 7, Ch. 8, Ch. 11, Ch. 13, App. C, Hist. Intro); 6–7 (Ch. 3); 7 (Ch. 3, Ch. 4, Ch. 11, Ch. 12, App. C, Hist. Intro); 7–8 (Ch. 12); 8 (Ch. 2, Ch. 3, Ch. 5, Ch. 8, Ch. 9, Ch. 10, Ch. 11, Ch. 12, Ch. 13, App. C, Hist. Intro); 8–10 (Ch. 4, Ch. 9); 9 (Ch. 1, Ch. 3, Ch. 4, Ch. 10, App. C, Hist. Intro); 10 (Ch. 5, Ch. 8, Ch. 9, Ch. 10, App. C, Hist. Intro); 11 (Ch. 2, Ch. 4, Ch. 5, Ch. 7, Ch. 9, Ch. 10, App. C, Hist. Intro); 12 (Ch. 1, Ch. 5, Ch. 6, Ch. 7, Ch. 9, Ch. 10, Ch. 11, Ch. 12, Ch. 13, App. C, Hist. Intro); 12–13 (Ch. 6, Ch. 7, Ch. 8, Ch. 10, Hist. Intro); 13 (Ch. 1, Ch. 3, Ch. 5, Ch. 7, Ch. 11, Ch. 12, Ch. 13, App. C); 14 (Ch. 3, Ch. 5, Ch. 8); 14–15 (Ch. 4, Ch. 7, Ch. 8, Ch. 10, Ch. 11, Ch. 12); 14–16 (Ch. 9); 15 (Ch. 2, Ch. 3, Ch. 9, Ch. 10, App. A); 16 (Ch. 2, Ch. 5, Ch. 8, Ch. 9, Ch. 10, App. C, Hist. Intro); 17 (Ch. 2, Ch. 3, Ch. 10, Ch. 11); 17–18 (Ch. 10, App. C, Hist. Intro); 17–19 (Ch. 10); 18 (Ch. 2, Ch. 5, Ch. 8, Ch. 9); 19 (Ch. 5, Ch. 9, Ch. 10, Ch. 11, App. A); 19–20 (Ch. 2); 20 (Ch. 2, Ch. 9, Ch. 10, Ch. 11, Ch. 12); 20–21 (Ch. 11, Ch. 12, Ch. 13); 20–23 (Ch. 2); 20–25 (Ch. 1); 21 (Ch. 1, Ch. 2, Ch. 3, Ch. 7, Ch. 8, Ch. 11, Ch. 12, Ch. 13); 22 (Ch. 13); 22–23 (Ch. 1, Ch. 2, Ch. 6, Ch. 10, Ch. 12, App. A); 23 (Ch. 4, Ch. 6, Ch. 12, Ch. 13); 24 (Ch. 1, Ch. 3, Ch. 8, Ch. 11, Ch. 12, Ch. 13); 24–25 (Ch. 9, Ch. 13, App. C); 25 (Ch. 3, Ch. 13, App. A)
+1 (Ch. 1, Ch. 3, Ch. 7, Ch. 11, Ch. 13, App. A, Hist. Intro); 1–2 (Ch. 1); 2 (Ch. 1, Ch. 7, Ch. 11, Ch. 12, App. C); 3 (Ch. 2, Ch. 3, Ch. 4, Ch. 10, Ch. 11, Ch. 12, Ch. 13); 3–4 (Ch. 2); 4 (Ch. 1, Ch. 2, Ch. 3, Ch. 4, Ch. 5, Ch. 8, Ch. 9, Ch. 11, Ch. 12, Ch. 13, App. A, App. C, Hist. Intro); 5 (Ch. 3, Ch. 5, Ch. 9, Ch. 10, Ch. 11, Ch. 13, App. A, App. C); 5–7 (Ch. 3, Ch. 10); 5–15 (Ch. 2); 6 (Ch. 1, Ch. 3, Ch. 7, Ch. 8, Ch. 11, Ch. 13, App. C, Hist. Intro); 6–7 (Ch. 3); 7 (Ch. 3, Ch. 4, Ch. 11, Ch. 12, App. C, Hist. Intro); 7–8 (Ch. 12); 8 (Ch. 2, Ch. 3, Ch. 5, Ch. 8, Ch. 9, Ch. 10, Ch. 11, Ch. 12, Ch. 13, App. C, Hist. Intro); 8–10 (Ch. 4, Ch. 9); 9 (Ch. 1, Ch. 3, Ch. 4, Ch. 10, App. C, Hist. Intro); 10 (Ch. 5, Ch. 8, Ch. 9, Ch. 10, App. C, Hist. Intro); 11 (Ch. 2, Ch. 4, Ch. 5, Ch. 7, Ch. 9, Ch. 10, App. C, Hist. Intro); 12 (Ch. 1, Ch. 5, Ch. 6, Ch. 7, Ch. 9, Ch. 10, Ch. 11, Ch. 12, Ch. 13, App. C, Hist. Intro); 12–13 (Ch. 6, Ch. 7, Ch. 8, Ch. 10, Hist. Intro); 13 (Ch. 1, Ch. 5, Ch. 7, Ch. 11, Ch. 12, Ch. 13, App. C); 14 (Ch. 3, Ch. 5, Ch. 8); 14–15 (Ch. 4, Ch. 7, Ch. 8, Ch. 10, Ch. 11, Ch. 12); 14–16 (Ch. 9); 15 (Ch. 2, Ch. 9, Ch. 10, App. A); 16 (Ch. 2, Ch. 5, Ch. 8, Ch. 9, Ch. 10, App. C, Hist. Intro); 17 (Ch. 2, Ch. 3, Ch. 10, Ch. 11); 17–18 (Ch. 10, App. C, Hist. Intro); 17–19 (Ch. 10); 18 (Ch. 2, Ch. 5, Ch. 8, Ch. 9); 19 (Ch. 5, Ch. 9, Ch. 10, Ch. 11, App. A); 19–20 (Ch. 2); 20 (Ch. 2, Ch. 9, Ch. 10, Ch. 11, Ch. 12); 20–21 (Ch. 11, Ch. 12, Ch. 13); 20–23 (Ch. 2); 20–25 (Ch. 1); 21 (Ch. 1, Ch. 2, Ch. 3, Ch. 7, Ch. 8, Ch. 11, Ch. 12, Ch. 13); 22 (Ch. 13); 22–23 (Ch. 1, Ch. 2, Ch. 6, Ch. 10, Ch. 12, App. A); 23 (Ch. 4, Ch. 6, Ch. 12, Ch. 13); 24 (Ch. 1, Ch. 3, Ch. 8, Ch. 11, Ch. 12, Ch. 13); 24–25 (Ch. 9, Ch. 13, App. C); 25 (Ch. 3, Ch. 13, App. A)
 
 **Revelation**  
-1:6 (Ch. 13); 1:20 (Ch. 7); 2:11 (Ch. 6); 2:14 (Ch. 5); 3:4 (Ch. 12); 3:10 (Ch. 1); 5:13 (Ch. 13); 8:10 (Ch. 7); 9:1 (Ch. 7); 12:7–9 (Ch. 3, Ch. 4); 12:7 (Ch. 4); 17:14 (Ch. 1); 20:10 (Ch. 3); 20:14 (Ch. 6)
+1:6 (Ch. 13); 1:20 (Ch. 7); 2:11 (Ch. 6); 2:14 (Ch. 5); 3:4 (Ch. 12); 3:10 (Ch. 1); 5:13 (Ch. 13); 7:14 (Hist. Intro); 8:10 (Ch. 7); 9:1 (Ch. 7); 12:7–9 (Ch. 3, Ch. 4); 12:7 (Ch. 4); 17:14 (Ch. 1); 20:10 (Ch. 3); 20:14 (Ch. 6)
 
 **3 Maccabees**  
 2:4 (Ch. 3); 2:5 (Ch. 3); 6:39 (Ch. 13)
@@ -156,13 +156,13 @@ References are to chapters ("Ch. 6"), the introductory chapters, and appendices.
 
 ## Other ancient and historical sources
 
-**1 Enoch**: Method, Hist. Intro, Ch. 2, Ch. 3, Ch. 5, Ch. 6, Ch. 7, Ch. 8, Ch. 9, App. A, App. B, App. C, Glossary  
+**1 Enoch**: Reader's Intro, Method, Hist. Intro, Ch. 2, Ch. 3, Ch. 5, Ch. 6, Ch. 7, Ch. 8, Ch. 9, App. A, App. B, App. C, Glossary  
 **Testament of Naphtali**: Ch. 3, Ch. 7  
 **Testament / Assumption of Moses**: Ch. 4, App. B, Glossary  
 **Targum Pseudo-Jonathan / Jerusalem Targum**: Method, Ch. 5, Glossary  
 **Josephus**: Method, Ch. 3, Ch. 5, Ch. 6  
-**Philo**: Ch. 3  
-**Dead Sea Scrolls / Qumran**: Hist. Intro, Ch. 3, Ch. 8  
+**Philo**: Ch. 3, Ch. 5  
+**Dead Sea Scrolls / Qumran**: Method, Hist. Intro, Ch. 3, Ch. 8  
 **Mishnah, Avot**: Ch. 2  
 **Theophrastus, Characters**: Ch. 9  
 **Pliny the Younger**: Method, Ch. 6  

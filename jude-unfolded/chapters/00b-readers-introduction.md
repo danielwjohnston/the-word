@@ -1,6 +1,6 @@
 # A Reader's Introduction {.unnumbered}
 
-Jude is easy to miss. It sits just before Revelation, a single chapter of twenty-five verses, and in the Greek text that underlies this book it runs to about 460 words. Most people could read it aloud in under three minutes. Many Christians know only its closing benediction, "to Him who is able to guard you without stumbling," and perhaps its call to "fight for the faith once delivered to the holy ones." The middle of the letter (fallen angels, an archangel quarrelling with the Devil over a corpse, a prophecy from Enoch, reefs, clouds, uprooted trees, and stars that have wandered from their paths) can seem so strange that readers hurry past it.
+Jude is easy to miss. It sits just before Revelation, a single chapter of twenty-five verses, and in the Greek text that underlies this book it runs to about 460 words. Most people could read it aloud in under three minutes. Many Christians know only its closing benediction, "Now to him that is able to keep you from falling" (v. 24, WBS), and perhaps its call to "contend earnestly for the faith which was once for all delivered to the saints" (v. 3, WEB). The middle of the letter (fallen angels, an archangel quarrelling with the Devil over a corpse, a prophecy from Enoch, reefs, clouds, uprooted trees, and stars that have wandered from their paths) can seem so strange that readers hurry past it.
 
 This book is written for readers who would rather slow down.
 
@@ -10,7 +10,7 @@ Jude rewards slowness because it is so compressed. Almost every phrase calls up 
 
 *Jude, Unfolded* is an expository commentary: a guided walk through the text, verse by verse and phrase by phrase. It sets out to explain:
 
-- **what the text says**, in the words of a very literal English translation and in the Greek behind it;
+- **what the text says**, in the Greek in which Jude wrote it, as the earliest manuscripts preserve it, and in many English translations;
 - **what it likely meant** to its first readers, given their scriptures, customs, and situation;
 - **why it may have been said that way**, which means attending to Jude's images, his rhetorical patterns, and his choices among traditions;
 - **how it may be responsibly applied today**, kept clearly separate from the explanation of what the text meant.
@@ -21,9 +21,9 @@ Along the way the book stops for **deep dives**, longer explorations of subjects
 
 After the introductory chapters, each of the thirteen main chapters follows the same pattern, so you can always find your way:
 
-- **A. The Text**: the passage in the Literal Standard Version.
+- **A. The Text**: the passage in Greek, a table of what the earliest manuscripts read, and every verse in eighteen free English translations.
 - **B. Plain-English Orientation**: the big picture before the details.
-- **C. Phrase-by-Phrase Exploration**: the heart of each chapter.
+- **C. Phrase-by-Phrase Exploration**: the heart of each chapter. Each heading gives a Greek phrase, its transliteration, and a plain rendering in single quotation marks.
 - **D. Original-Language Investigation**: the Greek words that matter, explained for readers who know no Greek.
 - **E. The Historical and Cultural World**: the customs, beliefs, and institutions the text assumes.
 - **F. Connections Across Scripture**: quotations, allusions, and shared themes, each explained.
@@ -32,14 +32,17 @@ After the introductory chapters, each of the thirteen main chapters follows the 
 - **I. Contemporary Understanding**: possible implications for faith and life today.
 - **J. Reflection and Discussion**: questions for personal study or groups.
 - **K. Sources**: the notes behind the chapter's claims.
+- **L. Texts Highlighted in This Chapter**: every passage of Scripture (and of 1 Enoch and the Apocrypha) that the chapter cites or alludes to, printed in full in the original language and in two English translations. References in the chapter link to these entries.
 
-You do not need to read every section in order. A small group might read A, B, C, and I together, use J for discussion, and leave D and G to members who want more detail. A preacher or teacher will probably want everything.
+You do not need to read every section in order. A small group might read A, B, C, and I together, use J for discussion, and leave D and G to members who want more detail. A preacher or teacher will probably want everything. Section L is there to be consulted: when a chapter says that Jude echoes the rebellion of Korah or the vision of Joshua the high priest, the passage itself is a click or a few pages away.
 
-## Why the Literal Standard Version?
+## The original first, and many translations
 
-The **Literal Standard Version (LSV)**, published by Covenant Press in 2020, is a very literal modern translation. Its publisher presents it as an improvement on earlier literal versions, including Robert Young's *Literal Translation* of the nineteenth century. It keeps closely to the form of the original languages. It preserves verb tenses where it can, marks supplied words in square brackets, renders ἄγγελος consistently as "messenger" and αἰώνιος as "continuous," and prints "LORD" in capitals in the New Testament where the reference is to the God of Israel. Some of its phrasing is unusual ("those dreaming indeed defile the flesh"; "stars going astray"), and that is part of its value here. A literal translation keeps the seams of the original visible, so we can see what the Greek is doing before we smooth it into natural English. Where the LSV's literalness hides the sense, this book explains it and compares other translations.
+Jude wrote in Greek, and his letter reached us through handwritten copies. This book therefore starts every passage with the Greek text, and it gives priority to the manuscripts themselves. Section A of each chapter shows what ten of the earliest and most important manuscripts actually read, from papyri copied in the third or fourth century to the ninth- and tenth-century copies that stand behind most later texts. The readings are checked against published transcriptions of the manuscripts, not taken on trust. When the commentary turns to the Old Testament, it reads the Hebrew (and, where Jude seems to have known it, the Greek Septuagint).
 
-The LSV is also openly licensed (Creative Commons Attribution-ShareAlike), which allows it to be quoted fully and freely. Its publisher asks that its English text not be altered, and this book honors that request: every LSV quotation appears exactly as the LSV has it.
+No English translation is treated as more important than another. Each verse of Jude is printed in eighteen free translations, from William Tyndale's New Testament of 1534 to translations completed in the last few years, in order of first publication. Some are strictly word-for-word (Young's Literal Translation, the Literal Standard Version, the Unlocked Literal Bible); some aim at natural modern English (the Berean Standard Bible, the Open English Bible, the Free Bible Version); one, the Translation for Translators, spells out meaning the Greek leaves implicit. Reading them side by side shows where translators agree, where they must choose, and why. When the commentary quotes another passage of Scripture, it names the translation it quotes, and it often uses a literal one so that the structure of the original stays visible. Section L then prints that passage in full in its original language and in the Berean Standard Bible and the World English Bible, two public-domain translations that between them follow both of the main forms of the Greek text.
+
+Every text in this book is in the public domain or under a free license. That is a principle, not an accident: Scripture should be free to read, copy, translate, and share, and so should a book that tries to open it. Translations whose publishers require permission, such as the ESV, NASB, NLT, the Amplified Bible, and *The Message*, are therefore not quoted. The Copyright and Licensing page explains this and lists the free translations that cover the same range.
 
 ## What you will not need
 

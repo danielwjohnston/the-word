@@ -36,3 +36,41 @@ This appendix summarizes the main interpretive questions discussed in the commen
 | 22 | διακρινομένους | doubting/wavering; disputing | wavering | 12 |
 | 22–23 | Two groups or three? | three-clause text; two-clause forms | three (with uncertainty) | 12 |
 | 25 | Supplied verb | "is" (declaration); "be" (wish) | both senses present | 13 |
+
+<!-- BEGIN GENERATED textL -->
+
+## Texts Highlighted in This Appendix
+
+Every passage cited or alluded to by reference in this appendix is printed here, original language first: Hebrew or Aramaic from the Westminster Leningrad Codex, Greek from the SBL Greek New Testament (the Septuagint for the Apocrypha), followed by two public-domain English translations, the Berean Standard Bible (BSB) and the World English Bible (WEB). 1 Enoch is given in R. H. Charles’s translation. A long passage already printed in full earlier in the book is linked rather than repeated.
+
+### Genesis 6 {#hl-appb-gen-6}
+
+Printed in full in Chapter 3: see [Genesis 6](#hl-c03-gen-6).
+
+### Deuteronomy 13 {#hl-appb-deu-13}
+
+Printed in full in Chapter 4: see [Deuteronomy 13](#hl-c04-deu-13).
+
+### 1 Enoch 2 {#hl-appb-1en-2}
+
+*R. H. Charles, The Book of Enoch (1917), public domain*
+
+**1** Observe ye everything that takes place in the heaven, how they do not change their orbits, and the luminaries which are in the heaven, how they all rise and set in order each in its season, and transgress not against their appointed order. **2** Behold ye the earth, and give heed to the things which take place upon it from first to last, how steadfast they are, how none of the things upon earth change, but all the works of God appear to you. **3** Behold the summer and the winter, how the whole earth is filled with water, and clouds and dew and rain lie upon it.
+
+### 1 Enoch 3 {#hl-appb-1en-3}
+
+*R. H. Charles, The Book of Enoch (1917), public domain*
+
+**1** Observe and see how (in the winter) all the trees seem as though they had withered and shed all their leaves, except fourteen trees, which do not lose their foliage but retain the old foliage from two to three years till the new comes.
+
+### 1 Enoch 4 {#hl-appb-1en-4}
+
+*R. H. Charles, The Book of Enoch (1917), public domain*
+
+**1** And again, observe ye the days of summer how the sun is above the earth over against it. And you seek shade and shelter by reason of the heat of the sun, and the earth also burns with growing heat, and so you cannot tread on the earth, or on a rock by reason of its heat.
+
+### 1 Enoch 5 {#hl-appb-1en-5}
+
+Printed in full in Chapter 7: see [1 Enoch 5](#hl-c07-1en-5).
+
+<!-- END GENERATED textL -->

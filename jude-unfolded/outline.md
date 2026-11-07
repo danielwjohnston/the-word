@@ -2,13 +2,13 @@
 
 *An Exploration of Every Verse, Word, Image, and Meaning*
 
-Target: about 50,000 words of main text, plus back matter. The chapter files live in `chapters/`, and the assembled book is `manuscript.md`.
+Second edition (November 2026): no length target. About 77,000 words of commentary, plus about 194,000 words of generated source texts (Greek, manuscript tables, eighteen translations of each verse, and every cited passage in full). The chapter files live in `chapters/`, and the assembled book is `manuscript.md`.
 
 ## Front matter (`chapters/00a`–`00e`)
 
 1. **Title page**
-2. **Copyright, translation credit, and licensing page**: LSV attribution (Covenant Press, CC BY-SA 4.0, publisher's request), SBLGNT (CC BY 4.0), public-domain comparison texts, and the commentary's own license (decision for the author).
-3. **Reader's introduction**: why Jude is worth unfolding, how to use the book (A–K pattern, deep dives, Greek made friendly), and what the book will and won't claim.
+2. **Copyright, translation credit, and licensing page**: the free-sources rule; SBLGNT (CC BY 4.0), INTF manuscript transcriptions (CC BY 4.0), WLC and other public-domain texts; the eighteen translations with their licenses; translations deliberately not used; the commentary's CC BY-SA 4.0 license.
+3. **Reader's introduction**: why Jude is worth unfolding, how to use the book (A–L pattern, deep dives, Greek made friendly), the original first, and no favorite translation, and what the book will and won't claim.
 4. **Research method and interpretive principles**: sources and their levels of certainty, how Greek is handled (no etymological fallacy), how traditions outside the Bible are handled, separating meaning from application, and how competing views are presented.
 5. **Historical and literary introduction to Jude**
    - The author: "Judas … brother of James." Options and evidence (Mark 6:3; Matt 13:55; Gal 1:19; 1 Cor 9:5; Acts 1:14; John 7:5; Hegesippus in Eusebius). The case for and against authenticity.
@@ -16,20 +16,20 @@ Target: about 50,000 words of main text, plus back matter. The chapter files liv
    - Date and setting: the range and why it matters less than often thought.
    - The recipients: what can be inferred and what cannot.
    - The opponents: their profile from Jude's charges, and the anachronism of the "Gnostic" label.
-   - Genre: letter, homily, "midrash," and rhetorical shape (Watson).
+   - Genre: letter, homily, "midrash," and rhetorical shape (Quintilian's parts of a speech).
    - The Jewish scriptural world of Jude: Hebrew Bible, LXX, 1 Enoch, the Moses tradition, typology.
    - Jude and 2 Peter: the evidence and the options.
    - Canonical reception: Clement, Tertullian, Origen, the Muratorian Fragment, Eusebius, Athanasius, Jerome, Luther, Calvin, and the Ethiopian Orthodox canon of 1 Enoch.
    - Deep dive: **Who were Jesus' brothers?** (Helvidian, Epiphanian, and Hieronymian views, presented neutrally.)
 6. **Overview of the letter and its structure**
-   - The whole letter in the LSV.
+   - The whole letter in Greek (SBLGNT), then in the BSB (critical text) and the WEB (Majority Text).
    - Structure map: greeting (1–2); occasion and appeal (3–4); "texts + these" section (5–19); exhortation (20–23); doxology (24–25).
    - The keeping thread (τηρέω/φυλάσσω), triads, the "these" pattern, and the beloved/ungodly contrast.
    - How to read the dark middle in light of the bright frame.
 
 ## Main chapters (`chapters/01`–`13`)
 
-Each chapter follows: A Text • B Orientation • C Phrase-by-phrase • D Original language • E Historical/cultural world • F Connections across Scripture • G Scholarly and theological questions • H The passage within Jude • I Contemporary understanding • J Reflection and discussion • K Sources. Deep dives sit inside C or E where the subject arises.
+Each chapter follows: A Text (Greek, manuscripts, eighteen translations) • B Orientation • C Phrase-by-phrase • D Original language • E Historical/cultural world • F Connections across Scripture • G Scholarly and theological questions • H The passage within Jude • I Contemporary understanding • J Reflection and discussion • K Sources • L Texts highlighted (every cited passage in full). Deep dives sit inside C or E where the subject arises.
 
 | # | Passage | Title | Deep dives |
 |---|---|---|---|
