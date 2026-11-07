@@ -122,7 +122,7 @@ Jude is saturated with Israel's scriptures, yet he never introduces an Old Testa
 | 5 | The exodus and the wilderness unbelief (Exod 12–14; Num 14) |
 | 6 | The "sons of God" (Gen 6:1–4) as read in 1 Enoch 6–16 |
 | 7 | Sodom and Gomorrah (Gen 19) |
-| 9 | Michael and Moses' burial (Deut 34:5–6) via later tradition; "The LORD rebuke you" (Zech 3:2) |
+| 9 | Michael and Moses' burial (Deut 34:5–6) via later tradition; Michael’s words echo Zech 3:2 ("YHWH pushes against you, O Satan") |
 | 11 | Cain (Gen 4), Balaam (Num 22–24; 31:16), Korah (Num 16) |
 | 12 | Shepherds feeding themselves (Ezek 34:2); clouds and wind without rain (Prov 25:14) |
 | 13 | The restless sea casting up mire (Isa 57:20) |

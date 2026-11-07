@@ -119,7 +119,7 @@ def check_quotes(path, text, report):
     # inline quotes followed by a reference
     for m in QUOTE_INLINE.finditer(text):
         q, ref = m.group(1), m.group(2)
-        is_lsv = 'LSV' in ref or re.match(r'\s*v{1,2}\.\s*\d', ref)
+        is_lsv = 'LSV' in ref or re.match(r'\s*v{1,2}\.\s*\d', ref) or re.match(r'\s*(' + BOOK_RE + r')\s+\d', ref)
         if not is_lsv: continue
         if re.search(r'\b(WEB|ASV|BSB|KJV|NIV|ESV|NRSV|my rendering|literally|lit\.|Charles|Brenton|LXX)\b', ref):
             continue
