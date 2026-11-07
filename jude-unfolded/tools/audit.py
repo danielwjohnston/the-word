@@ -46,7 +46,7 @@ def lsv_book(code):
 
 def norm(s):
     s = unicodedata.normalize('NFC', s)
-    s = s.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"')
+    s = re.sub('[’‘“”"\']', '', s)
     s = s.replace('||', ' ').replace(' / ', ' ').replace('—', '—')
     s = re.sub(r'\s+', ' ', s)
     return s.strip().lower()
@@ -72,7 +72,7 @@ def matches(quote, text):
 
 def parse_ref(ref, default_book=None):
     """Return list of (code, ch, v1, v2) from strings like 'Jude 12', 'vv. 3-4', 'Zech 3:2-4', 'Gen 4:3, 8'."""
-    ref = ref.replace('–', '-').replace('—', '-')
+    ref = ref.replace('–', '-').replace('—', '-').replace(';', ',')
     out = []
     m = re.match(r'\s*v{1,2}\.\s*([\d\-,\s]+)', ref)
     if m:
