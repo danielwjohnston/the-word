@@ -71,45 +71,42 @@ def matches(quote, text):
     return True, None
 
 def parse_ref(ref, default_book=None):
-    """Return list of (code, ch, v1, v2) from strings like 'Jude 12', 'vv. 3-4', 'Zech 3:2-4', 'Gen 4:3, 8'."""
-    ref = ref.replace('–', '-').replace('—', '-').replace(';', ',')
+    """Return list of (code, ch, v1, v2) from strings like 'Jude 12', 'vv. 3-4', 'Zech 3:2-4', 'Gen 4:3, 8', '2 Pet 2:13; 2 Pet 2:17'."""
+    ref = ref.replace('–', '-').replace('—', '-')
     out = []
-    m = re.match(r'\s*v{1,2}\.\s*([\d\-,\s]+)', ref)
+    code, ch = None, None
+    m = re.match(r'\s*v{1,2}\.\s*(.*)', ref)
     if m:
-        for part in m.group(1).split(','):
-            part = part.strip()
-            if not part: continue
-            a, _, b = part.partition('-')
-            out.append(('JUD', 1, int(a), int(b or a)))
-        return out
-    m = re.match(r'\s*(' + BOOK_RE + r')\s+([\d:\-,\s]+)', ref)
-    if not m:
-        return out
-    code = BOOKS[m.group(1)]
-    nums = m.group(2)
-    if code == 'JUD':
-        for part in nums.split(','):
-            part = part.strip().replace('1:', '')
-            if not part: continue
-            a, _, b = part.partition('-')
-            try: out.append(('JUD', 1, int(a), int(b or a)))
-            except ValueError: pass
-        return out
-    ch = None
-    for part in nums.split(','):
-        part = part.strip()
-        if not part: continue
-        if ':' in part:
-            c, _, vs = part.partition(':')
-            ch = int(c)
-        else:
-            vs = part
-        if ch is None: continue
-        a, _, b = vs.partition('-')
-        if ':' in b:  # cross-chapter range: take first chapter only
-            b = ''
-        try: out.append((code, ch, int(a), int(b or a)))
-        except ValueError: pass
+        code, ch, ref = 'JUD', 1, m.group(1)
+    for piece in re.split(r'[;,]', ref):
+        piece = piece.strip()
+        if not piece:
+            continue
+        mb = re.match(r'(' + BOOK_RE + r')\s+(.*)', piece)
+        if mb:
+            code = BOOKS[mb.group(1)]
+            piece = mb.group(2).strip()
+            ch = 1 if code == 'JUD' else None
+        if code is None:
+            continue
+        mm = re.match(r'(\d+)(?::(\d+))?(?:-(\d+)(?::(\d+))?)?', piece)
+        if not mm:
+            continue
+        a, b, c, d = mm.groups()
+        if code == 'JUD':
+            if b:  # Jude 1:12 style
+                v1 = int(b); v2 = int(d or c or b)
+            else:
+                v1 = int(a); v2 = int(c or a)
+            out.append(('JUD', 1, v1, v2))
+            continue
+        if b:      # ch:v[-v2]
+            ch = int(a); v1 = int(b); v2 = int(c) if (c and not d) else v1
+        else:      # bare verse in current chapter
+            if ch is None:
+                continue
+            v1 = int(a); v2 = int(c or a)
+        out.append((code, ch, v1, v2))
     return out
 
 QUOTE_INLINE = re.compile(r'[“"]([^“”"\n]{3,}?)[”"]\s*\(([^()\n]{1,60}?)\)')
@@ -145,7 +142,7 @@ def check_quotes(path, text, report):
                 if mm: src = mm.group(1)
             if src:
                 body = ' '.join(b for b in block if b and not re.match(r'[—-]{1,2}\s', b))
-                body = re.sub(r'\*\*\d+\*\*', ' ', body)      # verse numbers in bold
+                body = re.sub(r'\*\*\d+(?::\d+)?\*\*', ' ', body)      # verse numbers in bold
                 body = re.sub(r'\[\^[^\]]+\]', '', body)
                 refs = parse_ref(src)
                 if refs:

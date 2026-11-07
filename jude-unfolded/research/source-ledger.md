@@ -157,3 +157,24 @@ These works are standard in Jude scholarship. Because none could be opened in th
 2. Verify the V3 attributions against the printed commentaries and add page numbers.
 3. Verify the 4Q204 identification and Milik's assessment against Milik (1976) or Nickelsburg's Hermeneia commentary on 1 Enoch (2001).
 4. Optionally consult NA28 and ECM directly for full witness lists (P72, ℵ, A, B, C, etc.). The manuscript names individual manuscripts only where the reading is verified or very widely reported, and marks those cases.
+
+---
+
+## 8. Addendum: sources verified during manuscript development (V1)
+
+The following were retrieved and read while drafting chapters 3–13. Each passage used was checked directly.
+
+| Source | Edition / location | Passages | Used in |
+|---|---|---|---|
+| Augustine, *City of God* 15.23 | NPNF¹ 2, New Advent 120115 | Sethite reading of Gen 6; "We cannot deny that Enoch, the seventh from Adam, left some divine writings, for this is asserted by the Apostle Jude…" | Chs. 3, 8 |
+| Philo, *On Abraham* 133–136 | Trans. C. D. Yonge, earlyjewishwritings.com (book22) | Sodom's gluttony, debauchery, same-sex lust | Ch. 3 |
+| Josephus, *Antiquities* 1.11.1 | Whiston, Gutenberg #2848 | Sodomites proud, "hated strangers," "Sodomitical practices" | Ch. 3 |
+| Theophrastus, *Characters* 17 (Μεμψιμοιρία) | Trans. Bennett & Hammond (1902), Gutenberg #58242 | The grumbler who complains of not being invited to dinner | Ch. 9 |
+| Pliny the Younger, *Ep.* 2.6 | Latin, The Latin Library | Graded food and wine at a Roman dinner | Ch. 6 |
+| 1 Enoch 27:2; 94:6–8; 101:1–5 | Charles (1917), Wikisource | "hard things" against God's glory; woes; "proud and insolent words" | Chs. 5, 8, 9 |
+| *Didache* 8.2–3; 10.6; 11.9 | ANF 7 | Lord's Prayer three times daily; "Maran atha"; prophet who orders a meal "in the Spirit" | Chs. 6, 11 |
+| LXX / Theodotion | Brenton Greek | Gen 19:21; 48:16; Lev 19:15; Deut 10:17; 13:2–6; 33:2; 34:5–6; Num 14:27; 20:13; 27:14; Deut 32:51; 33:8; Exod 18:16; Deut 17:8; 19:17; 21:5; 25:1; Job 13:10; 22:8; 32:22; Prov 18:5; Isa 9:15 (versification varies); Isa 57:20; Ezek 34:2, 8; Zech 3:1–4; 14:5; Dan 4:1; 6:26; 11:36 (Theod.); 3 Macc 2:4–5; 6:39; Sir 16:7–8; 45:18–19; Wis 10:6–7 | throughout |
+| Greek of Col 3:16; Eph 4:32 | SBLGNT/MorphGNT | reciprocal ἑαυτούς / ἑαυτοῖς | Ch. 11 |
+| Abbott-Smith additional entries | TEI edition | φυλάσσω, κράτος, σωτήρ, ὠφέλεια, γογγυστής, μεμψίμοιρος, ὑπέρογκος, ἐμπαίκτης, ψυχικός, ἀποδιορίζω, ἐκχέω, ἀντιλογία | Chs. 5, 9, 10, 13 |
+| Computed counts | MorphGNT | οὐαί by NT book; the only NT superlative of ἅγιος (Jude 20) | Chs. 5, 11 |
+| Theophrastus title (Greek) | Search result citing the Oxford 1909 edition ("ΜΕΜΨΙΜΟΙΡΙΑ XVII") | — | Ch. 9 (V2 for the Greek title) |

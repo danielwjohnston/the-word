@@ -29,8 +29,9 @@ A book-length expository commentary on the Epistle of Jude for thoughtful reader
 
 ```bash
 tools/fetch_sources.sh                 # download openly licensed source texts into .cache/
-python3 tools/audit.py                 # coverage, LSV-quotation, footnote, and citation audits
-python3 tools/build.py                 # assemble manuscript.md, generate indexes, export EPUB/DOCX/PDF
+python3 tools/audit.py                 # coverage, LSV-quotation, footnote, and structure audits
+python3 tools/greek_audit.py           # every Greek form checked against SBLGNT, LXX, RP/TR, and Abbott-Smith
+python3 tools/build.py                 # regenerate Appendix C and indexes, assemble manuscript.md, export EPUB/DOCX/PDF/HTML
 python3 tools/lsv.py JUD1:1-2 ZEC3:2   # print LSV verses exactly (for quoting)
 ```
 

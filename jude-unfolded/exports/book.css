@@ -1,0 +1,15 @@
+
+body { font-family: 'DejaVu Serif', 'FreeSerif', Georgia, serif; line-height: 1.5; max-width: 42em; margin: auto; padding: 0 1em; color: #1a1a1a; }
+h1 { font-size: 1.7em; margin-top: 2.2em; page-break-before: always; break-before: page; }
+h1.title { page-break-before: avoid; text-align: center; font-size: 2.4em; }
+p.subtitle { text-align: center; font-style: italic; font-size: 1.2em; }
+h2 { font-size: 1.3em; margin-top: 1.6em; border-bottom: 1px solid #ccc; }
+h3 { font-size: 1.1em; margin-top: 1.3em; }
+blockquote { margin: 1em 1.5em; padding-left: 1em; border-left: 3px solid #b8a27a; color: #333; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85em; margin: 1em 0; }
+th, td { border: 1px solid #bbb; padding: 0.3em 0.45em; vertical-align: top; }
+th { background: #f3efe6; }
+.footnotes { font-size: 0.85em; }
+code { font-family: 'DejaVu Sans Mono', monospace; font-size: 0.9em; }
+nav#TOC ul { list-style: none; padding-left: 1em; }
+@page { size: 6in 9in; margin: 0.7in 0.65in 0.8in 0.65in; }
